@@ -6,15 +6,15 @@
 
 ## Method
 
-### Description of the state of knowledge
+### ¤ Description of the state of knowledge
 
-### How the task is specified
+### ¤ How the task is specified
 
-### Methodology
+### ¤ Methodology
 
-### How to analyze the results afterwards
+### ¤ How to analyze the results afterwards
 
-### What to show at UtExpo
+### ¤ What to show at UtExpo
 
 ## Timeline
 
