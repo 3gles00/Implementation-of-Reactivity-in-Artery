@@ -1,0 +1,377 @@
+<additional>
+    <vTypeDistribution id="typedList1" >
+        <vType id="vTypeCar" sigma="0.5" maxSpeed="35"  vClass="passenger" length="4.5" guiShape="passenger" color = "red" 	 />
+        <vType id="vTypeAutomatedCar" sigma="0.0" maxSpeed="35"  vClass="passenger" length="4.5" guiShape="passenger" color= "white" 	/>
+    </vTypeDistribution>
+
+
+<persons1>
+	<person id="person1" depart="311" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person2" depart="420" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person3" depart="189" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person4" depart="592" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person5" depart="705" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person6" depart="562" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person7" depart="38" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person8" depart="600" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person9" depart="743" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person10" depart="821" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person11" depart="253" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person12" depart="528" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person13" depart="123" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person14" depart="537" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person15" depart="943" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person16" depart="625" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person17" depart="997" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person18" depart="673" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person19" depart="239" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person20" depart="486" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person21" depart="929" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person22" depart="163" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person23" depart="546" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person24" depart="461" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person25" depart="14" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person26" depart="289" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person27" depart="464" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person28" depart="642" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person29" depart="781" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person30" depart="559" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person31" depart="984" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person32" depart="81" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person33" depart="447" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person34" depart="580" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person35" depart="960" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person36" depart="128" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person37" depart="804" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person38" depart="622" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person39" depart="937" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+	<person id="person40" depart="118" departPos="0" arrivalPos="50">
+		<walk from="48509545#3" to="48599798#0" />
+	</person>
+</persons1>
+
+<persons2>
+	<person id="2person1" depart="769" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person2" depart="437" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person3" depart="859" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person4" depart="365" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person5" depart="298" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person6" depart="781" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person7" depart="15" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person8" depart="263" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person9" depart="911" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person10" depart="614" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person11" depart="205" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person12" depart="822" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person13" depart="694" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person14" depart="490" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person15" depart="550" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person16" depart="544" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person17" depart="713" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person18" depart="766" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person19" depart="100" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person20" depart="926" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person21" depart="202" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person22" depart="25" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person23" depart="930" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person24" depart="954" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person25" depart="346" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person26" depart="942" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person27" depart="221" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person28" depart="665" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person29" depart="861" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person30" depart="305" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person31" depart="588" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person32" depart="128" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person33" depart="638" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person34" depart="989" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person35" depart="29" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person36" depart="892" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person37" depart="629" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person38" depart="242" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person39" depart="924" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+	<person id="2person40" depart="353" departPos="0" arrivalPos="50">
+		<walk from="48614465#7" to="48614465#3" />
+	</person>
+</persons2>
+ 
+<persons3>
+	<person id="3person1" depart="795" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person2" depart="520" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person3" depart="159" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person4" depart="584" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person5" depart="830" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person6" depart="119" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person7" depart="919" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person8" depart="571" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person9" depart="661" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person10" depart="646" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person11" depart="862" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person12" depart="410" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person13" depart="361" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person14" depart="522" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person15" depart="628" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person16" depart="231" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person17" depart="426" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person18" depart="997" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person19" depart="373" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person20" depart="8" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person21" depart="135" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person22" depart="154" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person23" depart="94" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person24" depart="566" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person25" depart="335" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person26" depart="372" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person27" depart="399" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person28" depart="48" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person29" depart="536" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person30" depart="427" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person31" depart="335" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person32" depart="584" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person33" depart="319" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person34" depart="206" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person35" depart="623" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person36" depart="817" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person37" depart="125" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person38" depart="649" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person39" depart="609" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+	<person id="3person40" depart="876" departPos="0" arrivalPos="50">
+		<walk from="48614465#2" to="-1168931835#3" />
+	</person>
+</persons3>
+
+</additional>
