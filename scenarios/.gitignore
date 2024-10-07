@@ -1,0 +1,18 @@
+.cmdenv-log
+.qtenvrc
+sumo-*.log
+
+# Ignore Artery files
+artery
+car2car-grid
+envmod
+gemv2
+highway-police
+lte-blackice
+mt-its2017
+ots-demo
+rsu_grid
+simulte
+storyboard
+testbed
+transfusion

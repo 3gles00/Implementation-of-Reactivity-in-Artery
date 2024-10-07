@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-07 19:04:49 by Eclipse SUMO GUI Version v1_20_0+2132-5dddbf6757a
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="test.net.xml"/>
+        <route-files value="50to50.trips.xml"/>
+        <additional-files value="map.poly.xml,additional.add.vtype.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="emissions.xml"/>
+        <summary-output value="summary.xml"/>
+        <tripinfo-output value="value.xml"/>
+        <stop-output value="stops.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="warn"/>
+    </processing>
+
+    <report>
+        <message-log value="results/sumo-0.log"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="47693"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+</stops>

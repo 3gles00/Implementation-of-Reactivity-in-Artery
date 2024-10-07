@@ -1,0 +1,47 @@
+ansible/*.retry
+scenarios/**/*.pyc
+scenarios/*/results/*
+scenarios/*/.cmdenv-log
+scenarios/*/.qtenvrc
+scenarios/*/.tkenvrc
+src/artery/messages/*_m.cc
+src/artery/messages/*_m.h
+.vagrant/
+
+# Building website with mkdocs
+www/
+venv/
+
+# OMNeT++ IDE / Eclipse CDT auto-generated files
+.cproject
+.oppbuildspec
+.project
+.settings
+
+# VSCode auto-generated files
+.vscode
+
+# CMake default directories
+build/
+
+
+# Not to copy Artery and only our files
+ansible
+cmake
+docs
+extern
+.clang-formats
+.dockerignore
+.nedfolders
+CMakeLists.txt
+src
+.clang-format
+.gitattributes
+COPYING
+Dockerfile
+logo.png
+Makefile
+mkdocs.yml
+opp_cmake.py
+README.md
+Vagrantfile
