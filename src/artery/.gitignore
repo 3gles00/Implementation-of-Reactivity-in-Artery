@@ -1,0 +1,14 @@
+# Files from Artery that we don't touch
+
+envmod
+inet
+lte
+networking
+nic
+ots
+storyboard
+testbed
+traci
+transfusion
+utility
+veins

@@ -34,7 +34,6 @@ extern
 .dockerignore
 .nedfolders
 CMakeLists.txt
-src
 .clang-format
 .gitattributes
 COPYING
