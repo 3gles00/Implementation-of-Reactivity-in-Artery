@@ -1,4 +1,5 @@
-***Starting server on port 60249 ***
-Loading net-file from '../../extern/veins/examples/veins/longroad.net.xml'... done (111ms).
+***Starting server on port 41697 ***
+Loading net-file from '../../extern/veins/examples/veins/erlangen.net.xml' ... done (88ms).
+Loading additional-files from '../../extern/veins/examples/veins/erlangen.poly.xml' ... done (3ms).
 Loading done.
-Simulation version 1.1.0 started with time: 0.000
+Simulation version v1_20_0+2132-5dddbf6757a started with time: 0.00.
