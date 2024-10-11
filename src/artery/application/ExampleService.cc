@@ -21,7 +21,7 @@
 #include <vanetza/geonet/interface.hpp>
 
 using namespace omnetpp;
-using namespace vanetza;Scenario
+using namespace vanetza;
 
 namespace artery
 {

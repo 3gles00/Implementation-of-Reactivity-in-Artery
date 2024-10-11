@@ -29,6 +29,7 @@ void UseCase::initialize(int stage)
     }
 }
 
+/*
 void UseCase::indicate(DenmObject obj){
     //TODO
     // 1. Print messages
@@ -36,6 +37,7 @@ void UseCase::indicate(DenmObject obj){
     // 3. Reactions Flowchart rerout -> slow down -> emergency Brake
     
 }
+*/
 
 vanetza::asn1::Denm UseCase::createMessageSkeleton()
 {
