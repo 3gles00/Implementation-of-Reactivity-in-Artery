@@ -42,4 +42,5 @@ Makefile
 mkdocs.yml
 opp_cmake.py
 Vagrantfile
-.gitmodules
+./.gitmodules
+./CMakeLists.txt
