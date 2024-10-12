@@ -15,6 +15,6 @@ After you can run the Artery example project either download the zip or clone th
 git clone https://github.com/3gles00/Cooperative-Behaviour-In-Artery.git
 
 After the download is complete you can now merge the various files in this project into the Artery folder.
-I would advise not merging the .git folder unless you want to coninue developing the Cooperative Behaviour in Artery Project.
+I would advise not merging the .git folder unless you want to continue developing the Cooperative Behaviour in Artery Project.
 
 ## Documentation
