@@ -4,7 +4,7 @@
 Beforre installing Artery you need to install the programs Artery is based on: Omnet++ and SUMO:
 - For Omnet++ the version that runs best with Artery is the 5.6.2 version which Artery is based on. 
     * https://omnetpp.org/download/old
-- For SUMO version 1.20 is recommended or higher for the use of the TraCI API in it's full.
+- For SUMO version 1.20 is recommended or higher for the full use of the TraCI API.
     * https://eclipse.dev/sumo/
 
 To Install the The Cooperative Behaviour in Artery you must first install Artery, you can find the installation instructions
