@@ -33,7 +33,6 @@ extern
 .clang-formats
 .dockerignore
 .nedfolders
-CMakeLists.txt
 .clang-format
 .gitattributes
 COPYING
@@ -42,5 +41,4 @@ logo.png
 Makefile
 mkdocs.yml
 opp_cmake.py
-README.md
 Vagrantfile

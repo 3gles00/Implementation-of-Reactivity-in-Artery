@@ -1,5 +1,15 @@
-***Starting server on port 41697 ***
-Loading net-file from '../../extern/veins/examples/veins/erlangen.net.xml' ... done (88ms).
-Loading additional-files from '../../extern/veins/examples/veins/erlangen.poly.xml' ... done (3ms).
+***Starting server on port 44035 ***
+Loading net-file from '../../extern/veins/examples/veins/erlangen.net.xml' ... done (130ms).
+Loading additional-files from '../../extern/veins/examples/veins/erlangen.poly.xml' ... done (4ms).
 Loading done.
-Simulation version v1_20_0+2132-5dddbf6757a started with time: 0.00.
+Simulation started with time: 0.00.
+Simulation ended at time: 194.00.
+Performance:
+ Duration: 571.96s
+ TraCI-Duration: 389.47s
+ Real time factor: 0.339186
+ UPS: 111.371814
+Vehicles:
+ Inserted: 65
+ Running: 65
+ Waiting: 0
