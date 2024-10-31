@@ -29,15 +29,44 @@ void UseCase::initialize(int stage)
     }
 }
 
-/*
-void UseCase::indicate(DenmObject obj){
+void UseCase::indicate(const artery::DenmObject& obj){
     //TODO
     // 1. Print messages
     // 2. See in path/vector - see CaService VehicleDataProvider
-    // 3. Reactions Flowchart rerout -> slow down -> emergency Brake
+    // 3. Reactions Flowchart reroute -> slow down -> emergency Brake
+    
+    // // 1. Print messages
+    // EV << "Received DENM from vehicle ID: " << denm.getVehicleId() << std::endl;
+    // EV << "Reason for DENM: " << denm.getReason() << std::endl;
+
+    // // 2. See in path/vector - use CaService and VehicleDataProvider
+    // if (mVdp) {
+    //     auto vehicleData = mVdp->getVehicleData(denm.getVehicleId());
+    //     EV << "Vehicle position: " << vehicleData.position << std::endl;
+    //     EV << "Vehicle speed: " << vehicleData.speed << std::endl;
+    // }
+
+    // // 3. Reactions Flowchart reroute -> slow down -> emergency Brake
+    // if (mService) {
+    //     // Example logic for reactions
+    //     if (denm.getReason() == "hazard") {
+    //         // Reroute
+    //         EV << "Rerouting vehicle " << denm.getVehicleId() << std::endl;
+    //         mService->rerouteVehicle(denm.getVehicleId());
+    //     } else if (denm.getReason() == "slow_down") {
+    //         // Slow down
+    //         EV << "Slowing down vehicle " << denm.getVehicleId() << std::endl;
+    //         mService->slowDownVehicle(denm.getVehicleId());
+    //     } else if (denm.getReason() == "emergency_brake") {
+    //         // Emergency brake
+    //         EV << "Emergency braking for vehicle " << denm.getVehicleId() << std::endl;
+    //         mService->emergencyBrakeVehicle(denm.getVehicleId());
+    //     }
+    // }
+    std::cout << "Received DENM from vehicle ID: " /*int) obj.situation_cause_code()*/ << std::endl;
+
     
 }
-*/
 
 vanetza::asn1::Denm UseCase::createMessageSkeleton()
 {

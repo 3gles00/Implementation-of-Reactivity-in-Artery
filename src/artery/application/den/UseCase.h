@@ -35,7 +35,7 @@ public:
      * Forwards the message received by DenService to the UseCase
      * Messages responding to this can be triggered immediately
      */
-    virtual void indicate(const artery::DenmObject&) = 0;
+    virtual void indicate(const artery::DenmObject&);
 
     /**
      * Forwards the received Storyboard trigger signal to the UseCase
