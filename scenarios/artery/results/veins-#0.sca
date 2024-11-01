@@ -1,14 +1,14 @@
 version 2
-run veins-0-20241015-13:42:35-247569
+run veins-0-20241101-15:20:37-139549
 attr configname veins
-attr datetime 20241015-13:42:35
+attr datetime 20241101-15:20:37
 attr experiment veins
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network artery.veins.World
-attr processid 247569
+attr processid 139549
 attr repetition 0
 attr replication #0
 attr resultdir results
