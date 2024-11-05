@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-11-04 22:26:25 by Eclipse SUMO duarouter Version v1_21_0+0546-c8b591674a3
+<!-- generated on 2024-11-05 13:00:50 by Eclipse SUMO duarouter Version v1_21_0+0546-c8b591674a3
 <duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -21,2702 +21,1004 @@
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
     <vType id="krauss_0.75" length="4.50" minGap="0.00" maxSpeed="45.00" vClass="passenger" guiShape="passenger" color="red" sigma="0.75"/>
-    <vehicle id="1" type="krauss_0.75" depart="1.00">
+    <vehicle id="1" type="krauss_0.75" depart="3.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
     <vType id="cacc" length="4.50" minGap="0.00" maxSpeed="35.00" vClass="passenger" guiShape="passenger" color="green" carFollowModel="CACC"/>
-    <vehicle id="2" type="cacc" depart="2.00">
+    <vehicle id="2" type="cacc" depart="6.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="3" type="krauss_0.5" depart="3.00">
+    <vehicle id="3" type="krauss_0.5" depart="9.00">
         <route edges="-E6 -E5 -E10 E1 E9 E6 -E8 -E2"/>
     </vehicle>
-    <vehicle id="4" type="krauss_0.75" depart="4.00">
+    <vehicle id="4" type="krauss_0.75" depart="12.00">
         <route edges="-E6 -E5 -E10 E1 E9 E6 -E8 -E2"/>
     </vehicle>
-    <vehicle id="5" type="cacc" depart="5.00">
+    <vehicle id="5" type="cacc" depart="15.00">
         <route edges="-E6 -E5 -E10 E1 E9 E6 -E8 -E2"/>
     </vehicle>
-    <vehicle id="6" type="krauss_0.5" depart="6.00">
+    <vehicle id="6" type="krauss_0.5" depart="18.00">
         <route edges="E2 E3"/>
     </vehicle>
-    <vehicle id="7" type="krauss_0.75" depart="7.00">
+    <vehicle id="7" type="krauss_0.75" depart="21.00">
         <route edges="E2 E3"/>
     </vehicle>
-    <vehicle id="8" type="cacc" depart="8.00">
+    <vehicle id="8" type="cacc" depart="24.00">
         <route edges="E2 E3"/>
     </vehicle>
-    <vehicle id="9" type="krauss_0.5" depart="9.00">
+    <vehicle id="9" type="krauss_0.5" depart="27.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="10" type="krauss_0.75" depart="10.00">
+    <vehicle id="10" type="krauss_0.75" depart="30.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="11" type="cacc" depart="11.00">
+    <vehicle id="11" type="cacc" depart="33.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="12" type="krauss_0.5" depart="12.00">
+    <vehicle id="12" type="krauss_0.5" depart="36.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="13" type="krauss_0.75" depart="13.00">
+    <vehicle id="13" type="krauss_0.75" depart="39.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="14" type="cacc" depart="14.00">
+    <vehicle id="14" type="cacc" depart="42.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="15" type="krauss_0.5" depart="15.00">
+    <vehicle id="15" type="krauss_0.5" depart="45.00">
         <route edges="-E3 -E2 E9 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="16" type="krauss_0.75" depart="16.00">
+    <vehicle id="16" type="krauss_0.75" depart="48.00">
         <route edges="-E3 -E2 E9 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="17" type="cacc" depart="17.00">
+    <vehicle id="17" type="cacc" depart="51.00">
         <route edges="-E3 -E2 E9 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="18" type="krauss_0.5" depart="18.00">
+    <vehicle id="18" type="krauss_0.5" depart="54.00">
         <route edges="-E10 E1 E2 E8 -E6 -E9 -E1"/>
     </vehicle>
-    <vehicle id="19" type="krauss_0.75" depart="19.00">
+    <vehicle id="19" type="krauss_0.75" depart="57.00">
         <route edges="-E10 E1 E2 E8 -E6 -E9 -E1"/>
     </vehicle>
-    <vehicle id="20" type="cacc" depart="20.00">
+    <vehicle id="20" type="cacc" depart="60.00">
         <route edges="-E10 E1 E2 E8 -E6 -E9 -E1"/>
     </vehicle>
-    <vehicle id="21" type="krauss_0.5" depart="21.00">
+    <vehicle id="21" type="krauss_0.5" depart="63.00">
         <route edges="E0 E1 E2"/>
     </vehicle>
-    <vehicle id="22" type="krauss_0.75" depart="22.00">
+    <vehicle id="22" type="krauss_0.75" depart="66.00">
         <route edges="E0 E1 E2"/>
     </vehicle>
-    <vehicle id="23" type="cacc" depart="23.00">
+    <vehicle id="23" type="cacc" depart="69.00">
         <route edges="E0 E1 E2"/>
     </vehicle>
-    <vehicle id="24" type="krauss_0.5" depart="24.00">
+    <vehicle id="24" type="krauss_0.5" depart="72.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="25" type="krauss_0.75" depart="25.00">
+    <vehicle id="25" type="krauss_0.75" depart="75.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="26" type="cacc" depart="26.00">
+    <vehicle id="26" type="cacc" depart="78.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="27" type="krauss_0.5" depart="27.00">
+    <vehicle id="27" type="krauss_0.5" depart="81.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="28" type="krauss_0.75" depart="28.00">
+    <vehicle id="28" type="krauss_0.75" depart="84.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="29" type="cacc" depart="29.00">
+    <vehicle id="29" type="cacc" depart="87.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="30" type="krauss_0.5" depart="30.00">
+    <vehicle id="30" type="krauss_0.5" depart="90.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="31" type="krauss_0.75" depart="31.00">
+    <vehicle id="31" type="krauss_0.75" depart="93.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="32" type="cacc" depart="32.00">
+    <vehicle id="32" type="cacc" depart="96.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="33" type="krauss_0.5" depart="33.00">
+    <vehicle id="33" type="krauss_0.5" depart="99.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="34" type="krauss_0.75" depart="34.00">
+    <vehicle id="34" type="krauss_0.75" depart="102.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="35" type="cacc" depart="35.00">
+    <vehicle id="35" type="cacc" depart="105.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="36" type="krauss_0.5" depart="36.00">
+    <vehicle id="36" type="krauss_0.5" depart="108.00">
         <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="37" type="krauss_0.75" depart="37.00">
+    <vehicle id="37" type="krauss_0.75" depart="111.00">
         <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="38" type="cacc" depart="38.00">
+    <vehicle id="38" type="cacc" depart="114.00">
         <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="39" type="krauss_0.5" depart="39.00">
+    <vehicle id="39" type="krauss_0.5" depart="117.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="40" type="krauss_0.75" depart="40.00">
+    <vehicle id="40" type="krauss_0.75" depart="120.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="41" type="cacc" depart="41.00">
+    <vehicle id="41" type="cacc" depart="123.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="42" type="krauss_0.5" depart="42.00">
+    <vehicle id="42" type="krauss_0.5" depart="126.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="43" type="krauss_0.75" depart="43.00">
+    <vehicle id="43" type="krauss_0.75" depart="129.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="44" type="cacc" depart="44.00">
+    <vehicle id="44" type="cacc" depart="132.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="45" type="krauss_0.5" depart="45.00">
+    <vehicle id="45" type="krauss_0.5" depart="135.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="46" type="krauss_0.75" depart="46.00">
+    <vehicle id="46" type="krauss_0.75" depart="138.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="47" type="cacc" depart="47.00">
+    <vehicle id="47" type="cacc" depart="141.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="48" type="krauss_0.5" depart="48.00">
+    <vehicle id="48" type="krauss_0.5" depart="144.00">
         <route edges="E0 E1 E2 E8"/>
     </vehicle>
-    <vehicle id="49" type="krauss_0.75" depart="49.00">
+    <vehicle id="49" type="krauss_0.75" depart="147.00">
         <route edges="E0 E1 E2 E8"/>
     </vehicle>
-    <vehicle id="50" type="cacc" depart="50.00">
+    <vehicle id="50" type="cacc" depart="150.00">
         <route edges="E0 E1 E2 E8"/>
     </vehicle>
-    <vehicle id="51" type="krauss_0.5" depart="51.00">
+    <vehicle id="51" type="krauss_0.5" depart="153.00">
         <route edges="-E7 -E6 -E9 E2"/>
     </vehicle>
-    <vehicle id="52" type="krauss_0.75" depart="52.00">
+    <vehicle id="52" type="krauss_0.75" depart="156.00">
         <route edges="-E7 -E6 -E9 E2"/>
     </vehicle>
-    <vehicle id="53" type="cacc" depart="53.00">
+    <vehicle id="53" type="cacc" depart="159.00">
         <route edges="-E7 -E6 -E9 E2"/>
     </vehicle>
-    <vehicle id="54" type="krauss_0.5" depart="54.00">
+    <vehicle id="54" type="krauss_0.5" depart="162.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="55" type="krauss_0.75" depart="55.00">
+    <vehicle id="55" type="krauss_0.75" depart="165.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="56" type="cacc" depart="56.00">
+    <vehicle id="56" type="cacc" depart="168.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="57" type="krauss_0.5" depart="57.00">
+    <vehicle id="57" type="krauss_0.5" depart="171.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="58" type="krauss_0.75" depart="58.00">
+    <vehicle id="58" type="krauss_0.75" depart="174.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="59" type="cacc" depart="59.00">
+    <vehicle id="59" type="cacc" depart="177.00">
         <route edges="E4 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="60" type="krauss_0.5" depart="60.00">
+    <vehicle id="60" type="krauss_0.5" depart="180.00">
         <route edges="E10 E5 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="61" type="krauss_0.75" depart="61.00">
+    <vehicle id="61" type="krauss_0.75" depart="183.00">
         <route edges="E10 E5 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="62" type="cacc" depart="62.00">
+    <vehicle id="62" type="cacc" depart="186.00">
         <route edges="E10 E5 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="63" type="krauss_0.5" depart="63.00">
+    <vehicle id="63" type="krauss_0.5" depart="189.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="64" type="krauss_0.75" depart="64.00">
+    <vehicle id="64" type="krauss_0.75" depart="192.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="65" type="cacc" depart="65.00">
+    <vehicle id="65" type="cacc" depart="195.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="66" type="krauss_0.5" depart="66.00">
+    <vehicle id="66" type="krauss_0.5" depart="198.00">
         <route edges="-E3 -E2"/>
     </vehicle>
-    <vehicle id="67" type="krauss_0.75" depart="67.00">
+    <vehicle id="67" type="krauss_0.75" depart="201.00">
         <route edges="-E3 -E2"/>
     </vehicle>
-    <vehicle id="68" type="cacc" depart="68.00">
+    <vehicle id="68" type="cacc" depart="204.00">
         <route edges="-E3 -E2"/>
     </vehicle>
-    <vehicle id="69" type="krauss_0.5" depart="69.00">
+    <vehicle id="69" type="krauss_0.5" depart="207.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="70" type="krauss_0.75" depart="70.00">
+    <vehicle id="70" type="krauss_0.75" depart="210.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="71" type="cacc" depart="71.00">
+    <vehicle id="71" type="cacc" depart="213.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="72" type="krauss_0.5" depart="72.00">
+    <vehicle id="72" type="krauss_0.5" depart="216.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="73" type="krauss_0.75" depart="73.00">
+    <vehicle id="73" type="krauss_0.75" depart="219.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="74" type="cacc" depart="74.00">
+    <vehicle id="74" type="cacc" depart="222.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="75" type="krauss_0.5" depart="75.00">
+    <vehicle id="75" type="krauss_0.5" depart="225.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="76" type="krauss_0.75" depart="76.00">
+    <vehicle id="76" type="krauss_0.75" depart="228.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="77" type="cacc" depart="77.00">
+    <vehicle id="77" type="cacc" depart="231.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="78" type="krauss_0.5" depart="78.00">
+    <vehicle id="78" type="krauss_0.5" depart="234.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="79" type="krauss_0.75" depart="79.00">
+    <vehicle id="79" type="krauss_0.75" depart="237.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="80" type="cacc" depart="80.00">
+    <vehicle id="80" type="cacc" depart="240.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="81" type="krauss_0.5" depart="81.00">
+    <vehicle id="81" type="krauss_0.5" depart="243.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="82" type="krauss_0.75" depart="82.00">
+    <vehicle id="82" type="krauss_0.75" depart="246.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="83" type="cacc" depart="83.00">
+    <vehicle id="83" type="cacc" depart="249.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="84" type="krauss_0.5" depart="84.00">
+    <vehicle id="84" type="krauss_0.5" depart="252.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="85" type="krauss_0.75" depart="85.00">
+    <vehicle id="85" type="krauss_0.75" depart="255.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="86" type="cacc" depart="86.00">
+    <vehicle id="86" type="cacc" depart="258.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="87" type="krauss_0.5" depart="87.00">
+    <vehicle id="87" type="krauss_0.5" depart="261.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="88" type="krauss_0.75" depart="88.00">
+    <vehicle id="88" type="krauss_0.75" depart="264.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="89" type="cacc" depart="89.00">
+    <vehicle id="89" type="cacc" depart="267.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="90" type="krauss_0.5" depart="90.00">
+    <vehicle id="90" type="krauss_0.5" depart="270.00">
         <route edges="E9 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="91" type="krauss_0.75" depart="91.00">
+    <vehicle id="91" type="krauss_0.75" depart="273.00">
         <route edges="E9 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="92" type="cacc" depart="92.00">
+    <vehicle id="92" type="cacc" depart="276.00">
         <route edges="E9 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="93" type="krauss_0.5" depart="93.00">
+    <vehicle id="93" type="krauss_0.5" depart="279.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="94" type="krauss_0.75" depart="94.00">
+    <vehicle id="94" type="krauss_0.75" depart="282.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="95" type="cacc" depart="95.00">
+    <vehicle id="95" type="cacc" depart="285.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="96" type="krauss_0.5" depart="96.00">
+    <vehicle id="96" type="krauss_0.5" depart="288.00">
         <route edges="E4 E5 E6"/>
     </vehicle>
-    <vehicle id="97" type="krauss_0.75" depart="97.00">
+    <vehicle id="97" type="krauss_0.75" depart="291.00">
         <route edges="E4 E5 E6"/>
     </vehicle>
-    <vehicle id="98" type="cacc" depart="98.00">
+    <vehicle id="98" type="cacc" depart="294.00">
         <route edges="E4 E5 E6"/>
     </vehicle>
-    <vehicle id="99" type="krauss_0.5" depart="99.00">
+    <vehicle id="99" type="krauss_0.5" depart="297.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="100" type="krauss_0.75" depart="100.00">
+    <vehicle id="100" type="krauss_0.75" depart="300.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="101" type="cacc" depart="101.00">
+    <vehicle id="101" type="cacc" depart="303.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="102" type="krauss_0.5" depart="102.00">
+    <vehicle id="102" type="krauss_0.5" depart="306.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="103" type="krauss_0.75" depart="103.00">
+    <vehicle id="103" type="krauss_0.75" depart="309.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="104" type="cacc" depart="104.00">
+    <vehicle id="104" type="cacc" depart="312.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="105" type="krauss_0.5" depart="105.00">
+    <vehicle id="105" type="krauss_0.5" depart="315.00">
         <route edges="-E3 E8 E7"/>
     </vehicle>
-    <vehicle id="106" type="krauss_0.75" depart="106.00">
+    <vehicle id="106" type="krauss_0.75" depart="318.00">
         <route edges="-E3 E8 E7"/>
     </vehicle>
-    <vehicle id="107" type="cacc" depart="107.00">
+    <vehicle id="107" type="cacc" depart="321.00">
         <route edges="-E3 E8 E7"/>
     </vehicle>
-    <vehicle id="108" type="krauss_0.5" depart="108.00">
+    <vehicle id="108" type="krauss_0.5" depart="324.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="109" type="krauss_0.75" depart="109.00">
+    <vehicle id="109" type="krauss_0.75" depart="327.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="110" type="cacc" depart="110.00">
+    <vehicle id="110" type="cacc" depart="330.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="111" type="krauss_0.5" depart="111.00">
+    <vehicle id="111" type="krauss_0.5" depart="333.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="112" type="krauss_0.75" depart="112.00">
+    <vehicle id="112" type="krauss_0.75" depart="336.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="113" type="cacc" depart="113.00">
+    <vehicle id="113" type="cacc" depart="339.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="114" type="krauss_0.5" depart="114.00">
+    <vehicle id="114" type="krauss_0.5" depart="342.00">
         <route edges="E4 E5 -E9 E2 E8 -E6"/>
     </vehicle>
-    <vehicle id="115" type="krauss_0.75" depart="115.00">
+    <vehicle id="115" type="krauss_0.75" depart="345.00">
         <route edges="E4 E5 -E9 E2 E8 -E6"/>
     </vehicle>
-    <vehicle id="116" type="cacc" depart="116.00">
+    <vehicle id="116" type="cacc" depart="348.00">
         <route edges="E4 E5 -E9 E2 E8 -E6"/>
     </vehicle>
-    <vehicle id="117" type="krauss_0.5" depart="117.00">
+    <vehicle id="117" type="krauss_0.5" depart="351.00">
         <route edges="-E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="118" type="krauss_0.75" depart="118.00">
+    <vehicle id="118" type="krauss_0.75" depart="354.00">
         <route edges="-E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="119" type="cacc" depart="119.00">
+    <vehicle id="119" type="cacc" depart="357.00">
         <route edges="-E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="120" type="krauss_0.5" depart="120.00">
+    <vehicle id="120" type="krauss_0.5" depart="360.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="121" type="krauss_0.75" depart="121.00">
+    <vehicle id="121" type="krauss_0.75" depart="363.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="122" type="cacc" depart="122.00">
+    <vehicle id="122" type="cacc" depart="366.00">
         <route edges="E0 E10 -E4"/>
     </vehicle>
-    <vehicle id="123" type="krauss_0.5" depart="123.00">
+    <vehicle id="123" type="krauss_0.5" depart="369.00">
         <route edges="E0 E1 E9 E6 E7"/>
     </vehicle>
-    <vehicle id="124" type="krauss_0.75" depart="124.00">
+    <vehicle id="124" type="krauss_0.75" depart="372.00">
         <route edges="E0 E1 E9 E6 E7"/>
     </vehicle>
-    <vehicle id="125" type="cacc" depart="125.00">
+    <vehicle id="125" type="cacc" depart="375.00">
         <route edges="E0 E1 E9 E6 E7"/>
     </vehicle>
-    <vehicle id="126" type="krauss_0.5" depart="126.00">
+    <vehicle id="126" type="krauss_0.5" depart="378.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="127" type="krauss_0.75" depart="127.00">
+    <vehicle id="127" type="krauss_0.75" depart="381.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="128" type="cacc" depart="128.00">
+    <vehicle id="128" type="cacc" depart="384.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="129" type="krauss_0.5" depart="129.00">
+    <vehicle id="129" type="krauss_0.5" depart="387.00">
         <route edges="E9 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="130" type="krauss_0.75" depart="130.00">
+    <vehicle id="130" type="krauss_0.75" depart="390.00">
         <route edges="E9 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="131" type="cacc" depart="131.00">
+    <vehicle id="131" type="cacc" depart="393.00">
         <route edges="E9 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="132" type="krauss_0.5" depart="132.00">
+    <vehicle id="132" type="krauss_0.5" depart="396.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="133" type="krauss_0.75" depart="133.00">
+    <vehicle id="133" type="krauss_0.75" depart="399.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="134" type="cacc" depart="134.00">
+    <vehicle id="134" type="cacc" depart="402.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="135" type="krauss_0.5" depart="135.00">
+    <vehicle id="135" type="krauss_0.5" depart="405.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="136" type="krauss_0.75" depart="136.00">
+    <vehicle id="136" type="krauss_0.75" depart="408.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="137" type="cacc" depart="137.00">
+    <vehicle id="137" type="cacc" depart="411.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="138" type="krauss_0.5" depart="138.00">
+    <vehicle id="138" type="krauss_0.5" depart="414.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="139" type="krauss_0.75" depart="139.00">
+    <vehicle id="139" type="krauss_0.75" depart="417.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="140" type="cacc" depart="140.00">
+    <vehicle id="140" type="cacc" depart="420.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="141" type="krauss_0.5" depart="141.00">
+    <vehicle id="141" type="krauss_0.5" depart="423.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="142" type="krauss_0.75" depart="142.00">
+    <vehicle id="142" type="krauss_0.75" depart="426.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="143" type="cacc" depart="143.00">
+    <vehicle id="143" type="cacc" depart="429.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="144" type="krauss_0.5" depart="144.00">
+    <vehicle id="144" type="krauss_0.5" depart="432.00">
         <route edges="E9 E6 -E8 -E2 -E1 E10"/>
     </vehicle>
-    <vehicle id="145" type="krauss_0.75" depart="145.00">
+    <vehicle id="145" type="krauss_0.75" depart="435.00">
         <route edges="E9 E6 -E8 -E2 -E1 E10"/>
     </vehicle>
-    <vehicle id="146" type="cacc" depart="146.00">
+    <vehicle id="146" type="cacc" depart="438.00">
         <route edges="E9 E6 -E8 -E2 -E1 E10"/>
     </vehicle>
-    <vehicle id="147" type="krauss_0.5" depart="147.00">
+    <vehicle id="147" type="krauss_0.5" depart="441.00">
         <route edges="E8 E7"/>
     </vehicle>
-    <vehicle id="148" type="krauss_0.75" depart="148.00">
+    <vehicle id="148" type="krauss_0.75" depart="444.00">
         <route edges="E8 E7"/>
     </vehicle>
-    <vehicle id="149" type="cacc" depart="149.00">
+    <vehicle id="149" type="cacc" depart="447.00">
         <route edges="E8 E7"/>
     </vehicle>
-    <vehicle id="150" type="krauss_0.5" depart="150.00">
+    <vehicle id="150" type="krauss_0.5" depart="450.00">
         <route edges="-E1 E10 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="151" type="krauss_0.75" depart="151.00">
+    <vehicle id="151" type="krauss_0.75" depart="453.00">
         <route edges="-E1 E10 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="152" type="cacc" depart="152.00">
+    <vehicle id="152" type="cacc" depart="456.00">
         <route edges="-E1 E10 E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="153" type="krauss_0.5" depart="153.00">
+    <vehicle id="153" type="krauss_0.5" depart="459.00">
         <route edges="E0 E10"/>
     </vehicle>
-    <vehicle id="154" type="krauss_0.75" depart="154.00">
+    <vehicle id="154" type="krauss_0.75" depart="462.00">
         <route edges="E0 E10"/>
     </vehicle>
-    <vehicle id="155" type="cacc" depart="155.00">
+    <vehicle id="155" type="cacc" depart="465.00">
         <route edges="E0 E10"/>
     </vehicle>
-    <vehicle id="156" type="krauss_0.5" depart="156.00">
+    <vehicle id="156" type="krauss_0.5" depart="468.00">
         <route edges="-E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="157" type="krauss_0.75" depart="157.00">
+    <vehicle id="157" type="krauss_0.75" depart="471.00">
         <route edges="-E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="158" type="cacc" depart="158.00">
+    <vehicle id="158" type="cacc" depart="474.00">
         <route edges="-E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="159" type="krauss_0.5" depart="159.00">
+    <vehicle id="159" type="krauss_0.5" depart="477.00">
         <route edges="-E3 -E2 E9 -E5"/>
     </vehicle>
-    <vehicle id="160" type="krauss_0.75" depart="160.00">
+    <vehicle id="160" type="krauss_0.75" depart="480.00">
         <route edges="-E3 -E2 E9 -E5"/>
     </vehicle>
-    <vehicle id="161" type="cacc" depart="161.00">
+    <vehicle id="161" type="cacc" depart="483.00">
         <route edges="-E3 -E2 E9 -E5"/>
     </vehicle>
-    <vehicle id="162" type="krauss_0.5" depart="162.00">
+    <vehicle id="162" type="krauss_0.5" depart="486.00">
         <route edges="-E7 -E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="163" type="krauss_0.75" depart="163.00">
+    <vehicle id="163" type="krauss_0.75" depart="489.00">
         <route edges="-E7 -E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="164" type="cacc" depart="164.00">
+    <vehicle id="164" type="cacc" depart="492.00">
         <route edges="-E7 -E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="165" type="krauss_0.5" depart="165.00">
+    <vehicle id="165" type="krauss_0.5" depart="495.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="166" type="krauss_0.75" depart="166.00">
+    <vehicle id="166" type="krauss_0.75" depart="498.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="167" type="cacc" depart="167.00">
+    <vehicle id="167" type="cacc" depart="501.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="168" type="krauss_0.5" depart="168.00">
+    <vehicle id="168" type="krauss_0.5" depart="504.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="169" type="krauss_0.75" depart="169.00">
+    <vehicle id="169" type="krauss_0.75" depart="507.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="170" type="cacc" depart="170.00">
+    <vehicle id="170" type="cacc" depart="510.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="171" type="krauss_0.5" depart="171.00">
+    <vehicle id="171" type="krauss_0.5" depart="513.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="172" type="krauss_0.75" depart="172.00">
+    <vehicle id="172" type="krauss_0.75" depart="516.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="173" type="cacc" depart="173.00">
+    <vehicle id="173" type="cacc" depart="519.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="174" type="krauss_0.5" depart="174.00">
+    <vehicle id="174" type="krauss_0.5" depart="522.00">
         <route edges="-E7 -E8 E3"/>
     </vehicle>
-    <vehicle id="175" type="krauss_0.75" depart="175.00">
+    <vehicle id="175" type="krauss_0.75" depart="525.00">
         <route edges="-E7 -E8 E3"/>
     </vehicle>
-    <vehicle id="176" type="cacc" depart="176.00">
+    <vehicle id="176" type="cacc" depart="528.00">
         <route edges="-E7 -E8 E3"/>
     </vehicle>
-    <vehicle id="177" type="krauss_0.5" depart="177.00">
+    <vehicle id="177" type="krauss_0.5" depart="531.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="178" type="krauss_0.75" depart="178.00">
+    <vehicle id="178" type="krauss_0.75" depart="534.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="179" type="cacc" depart="179.00">
+    <vehicle id="179" type="cacc" depart="537.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="180" type="krauss_0.5" depart="180.00">
+    <vehicle id="180" type="krauss_0.5" depart="540.00">
         <route edges="E4 E5 -E9 E2"/>
     </vehicle>
-    <vehicle id="181" type="krauss_0.75" depart="181.00">
+    <vehicle id="181" type="krauss_0.75" depart="543.00">
         <route edges="E4 E5 -E9 E2"/>
     </vehicle>
-    <vehicle id="182" type="cacc" depart="182.00">
+    <vehicle id="182" type="cacc" depart="546.00">
         <route edges="E4 E5 -E9 E2"/>
     </vehicle>
-    <vehicle id="183" type="krauss_0.5" depart="183.00">
+    <vehicle id="183" type="krauss_0.5" depart="549.00">
         <route edges="E4 E5 -E9 -E1 E10"/>
     </vehicle>
-    <vehicle id="184" type="krauss_0.75" depart="184.00">
+    <vehicle id="184" type="krauss_0.75" depart="552.00">
         <route edges="E4 E5 -E9 -E1 E10"/>
     </vehicle>
-    <vehicle id="185" type="cacc" depart="185.00">
+    <vehicle id="185" type="cacc" depart="555.00">
         <route edges="E4 E5 -E9 -E1 E10"/>
     </vehicle>
-    <vehicle id="186" type="krauss_0.5" depart="186.00">
+    <vehicle id="186" type="krauss_0.5" depart="558.00">
         <route edges="-E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="187" type="krauss_0.75" depart="187.00">
+    <vehicle id="187" type="krauss_0.75" depart="561.00">
         <route edges="-E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="188" type="cacc" depart="188.00">
+    <vehicle id="188" type="cacc" depart="564.00">
         <route edges="-E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="189" type="krauss_0.5" depart="189.00">
+    <vehicle id="189" type="krauss_0.5" depart="567.00">
         <route edges="-E10 E1 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="190" type="krauss_0.75" depart="190.00">
+    <vehicle id="190" type="krauss_0.75" depart="570.00">
         <route edges="-E10 E1 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="191" type="cacc" depart="191.00">
+    <vehicle id="191" type="cacc" depart="573.00">
         <route edges="-E10 E1 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="192" type="krauss_0.5" depart="192.00">
+    <vehicle id="192" type="krauss_0.5" depart="576.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="193" type="krauss_0.75" depart="193.00">
+    <vehicle id="193" type="krauss_0.75" depart="579.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="194" type="cacc" depart="194.00">
+    <vehicle id="194" type="cacc" depart="582.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="195" type="krauss_0.5" depart="195.00">
+    <vehicle id="195" type="krauss_0.5" depart="585.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="196" type="krauss_0.75" depart="196.00">
+    <vehicle id="196" type="krauss_0.75" depart="588.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="197" type="cacc" depart="197.00">
+    <vehicle id="197" type="cacc" depart="591.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="198" type="krauss_0.5" depart="198.00">
+    <vehicle id="198" type="krauss_0.5" depart="594.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="199" type="krauss_0.75" depart="199.00">
+    <vehicle id="199" type="krauss_0.75" depart="597.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="200" type="cacc" depart="200.00">
+    <vehicle id="200" type="cacc" depart="600.00">
         <route edges="E4 E5 E6 E7"/>
     </vehicle>
-    <vehicle id="201" type="krauss_0.5" depart="201.00">
+    <vehicle id="201" type="krauss_0.5" depart="603.00">
         <route edges="-E3 E8 -E6 -E9"/>
     </vehicle>
-    <vehicle id="202" type="krauss_0.75" depart="202.00">
+    <vehicle id="202" type="krauss_0.75" depart="606.00">
         <route edges="-E3 E8 -E6 -E9"/>
     </vehicle>
-    <vehicle id="203" type="cacc" depart="203.00">
+    <vehicle id="203" type="cacc" depart="609.00">
         <route edges="-E3 E8 -E6 -E9"/>
     </vehicle>
-    <vehicle id="204" type="krauss_0.5" depart="204.00">
+    <vehicle id="204" type="krauss_0.5" depart="612.00">
         <route edges="-E3 -E2 E9 E6"/>
     </vehicle>
-    <vehicle id="205" type="krauss_0.75" depart="205.00">
+    <vehicle id="205" type="krauss_0.75" depart="615.00">
         <route edges="-E3 -E2 E9 E6"/>
     </vehicle>
-    <vehicle id="206" type="cacc" depart="206.00">
+    <vehicle id="206" type="cacc" depart="618.00">
         <route edges="-E3 -E2 E9 E6"/>
     </vehicle>
-    <vehicle id="207" type="krauss_0.5" depart="207.00">
+    <vehicle id="207" type="krauss_0.5" depart="621.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="208" type="krauss_0.75" depart="208.00">
+    <vehicle id="208" type="krauss_0.75" depart="624.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="209" type="cacc" depart="209.00">
+    <vehicle id="209" type="cacc" depart="627.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="210" type="krauss_0.5" depart="210.00">
+    <vehicle id="210" type="krauss_0.5" depart="630.00">
         <route edges="-E8 -E2 E9 -E5 -E10 E1 E2"/>
     </vehicle>
-    <vehicle id="211" type="krauss_0.75" depart="211.00">
+    <vehicle id="211" type="krauss_0.75" depart="633.00">
         <route edges="-E8 -E2 E9 -E5 -E10 E1 E2"/>
     </vehicle>
-    <vehicle id="212" type="cacc" depart="212.00">
+    <vehicle id="212" type="cacc" depart="636.00">
         <route edges="-E8 -E2 E9 -E5 -E10 E1 E2"/>
     </vehicle>
-    <vehicle id="213" type="krauss_0.5" depart="213.00">
+    <vehicle id="213" type="krauss_0.5" depart="639.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="214" type="krauss_0.75" depart="214.00">
+    <vehicle id="214" type="krauss_0.75" depart="642.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="215" type="cacc" depart="215.00">
+    <vehicle id="215" type="cacc" depart="645.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="216" type="krauss_0.5" depart="216.00">
+    <vehicle id="216" type="krauss_0.5" depart="648.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="217" type="krauss_0.75" depart="217.00">
+    <vehicle id="217" type="krauss_0.75" depart="651.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="218" type="cacc" depart="218.00">
+    <vehicle id="218" type="cacc" depart="654.00">
         <route edges="-E7 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="219" type="krauss_0.5" depart="219.00">
+    <vehicle id="219" type="krauss_0.5" depart="657.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="220" type="krauss_0.75" depart="220.00">
+    <vehicle id="220" type="krauss_0.75" depart="660.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="221" type="cacc" depart="221.00">
+    <vehicle id="221" type="cacc" depart="663.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="222" type="krauss_0.5" depart="222.00">
+    <vehicle id="222" type="krauss_0.5" depart="666.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="223" type="krauss_0.75" depart="223.00">
+    <vehicle id="223" type="krauss_0.75" depart="669.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="224" type="cacc" depart="224.00">
+    <vehicle id="224" type="cacc" depart="672.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="225" type="krauss_0.5" depart="225.00">
+    <vehicle id="225" type="krauss_0.5" depart="675.00">
         <route edges="E9 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="226" type="krauss_0.75" depart="226.00">
+    <vehicle id="226" type="krauss_0.75" depart="678.00">
         <route edges="E9 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="227" type="cacc" depart="227.00">
+    <vehicle id="227" type="cacc" depart="681.00">
         <route edges="E9 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="228" type="krauss_0.5" depart="228.00">
+    <vehicle id="228" type="krauss_0.5" depart="684.00">
         <route edges="-E7 -E6 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="229" type="krauss_0.75" depart="229.00">
+    <vehicle id="229" type="krauss_0.75" depart="687.00">
         <route edges="-E7 -E6 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="230" type="cacc" depart="230.00">
+    <vehicle id="230" type="cacc" depart="690.00">
         <route edges="-E7 -E6 -E5 -E10 E1"/>
     </vehicle>
-    <vehicle id="231" type="krauss_0.5" depart="231.00">
+    <vehicle id="231" type="krauss_0.5" depart="693.00">
         <route edges="-E3 -E2"/>
     </vehicle>
-    <vehicle id="232" type="krauss_0.75" depart="232.00">
+    <vehicle id="232" type="krauss_0.75" depart="696.00">
         <route edges="-E3 -E2"/>
     </vehicle>
-    <vehicle id="233" type="cacc" depart="233.00">
+    <vehicle id="233" type="cacc" depart="699.00">
         <route edges="-E3 -E2"/>
     </vehicle>
-    <vehicle id="234" type="krauss_0.5" depart="234.00">
+    <vehicle id="234" type="krauss_0.5" depart="702.00">
         <route edges="-E7 -E8 E3"/>
     </vehicle>
-    <vehicle id="235" type="krauss_0.75" depart="235.00">
+    <vehicle id="235" type="krauss_0.75" depart="705.00">
         <route edges="-E7 -E8 E3"/>
     </vehicle>
-    <vehicle id="236" type="cacc" depart="236.00">
+    <vehicle id="236" type="cacc" depart="708.00">
         <route edges="-E7 -E8 E3"/>
     </vehicle>
-    <vehicle id="237" type="krauss_0.5" depart="237.00">
+    <vehicle id="237" type="krauss_0.5" depart="711.00">
         <route edges="-E3 -E2 E9 -E5 -E10"/>
     </vehicle>
-    <vehicle id="238" type="krauss_0.75" depart="238.00">
+    <vehicle id="238" type="krauss_0.75" depart="714.00">
         <route edges="-E3 -E2 E9 -E5 -E10"/>
     </vehicle>
-    <vehicle id="239" type="cacc" depart="239.00">
+    <vehicle id="239" type="cacc" depart="717.00">
         <route edges="-E3 -E2 E9 -E5 -E10"/>
     </vehicle>
-    <vehicle id="240" type="krauss_0.5" depart="240.00">
+    <vehicle id="240" type="krauss_0.5" depart="720.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="241" type="krauss_0.75" depart="241.00">
+    <vehicle id="241" type="krauss_0.75" depart="723.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="242" type="cacc" depart="242.00">
+    <vehicle id="242" type="cacc" depart="726.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="243" type="krauss_0.5" depart="243.00">
+    <vehicle id="243" type="krauss_0.5" depart="729.00">
         <route edges="-E3 E8 E7"/>
     </vehicle>
-    <vehicle id="244" type="krauss_0.75" depart="244.00">
+    <vehicle id="244" type="krauss_0.75" depart="732.00">
         <route edges="-E3 E8 E7"/>
     </vehicle>
-    <vehicle id="245" type="cacc" depart="245.00">
+    <vehicle id="245" type="cacc" depart="735.00">
         <route edges="-E3 E8 E7"/>
     </vehicle>
-    <vehicle id="246" type="krauss_0.5" depart="246.00">
+    <vehicle id="246" type="krauss_0.5" depart="738.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="247" type="krauss_0.75" depart="247.00">
+    <vehicle id="247" type="krauss_0.75" depart="741.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="248" type="cacc" depart="248.00">
+    <vehicle id="248" type="cacc" depart="744.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="249" type="krauss_0.5" depart="249.00">
+    <vehicle id="249" type="krauss_0.5" depart="747.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="250" type="krauss_0.75" depart="250.00">
+    <vehicle id="250" type="krauss_0.75" depart="750.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="251" type="cacc" depart="251.00">
+    <vehicle id="251" type="cacc" depart="753.00">
         <route edges="-E3 E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="252" type="krauss_0.5" depart="252.00">
+    <vehicle id="252" type="krauss_0.5" depart="756.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="253" type="krauss_0.75" depart="253.00">
+    <vehicle id="253" type="krauss_0.75" depart="759.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="254" type="cacc" depart="254.00">
+    <vehicle id="254" type="cacc" depart="762.00">
         <route edges="-E3 -E2 -E1 -E0"/>
     </vehicle>
-    <vehicle id="255" type="krauss_0.5" depart="255.00">
+    <vehicle id="255" type="krauss_0.5" depart="765.00">
         <route edges="E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="256" type="krauss_0.75" depart="256.00">
+    <vehicle id="256" type="krauss_0.75" depart="768.00">
         <route edges="E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="257" type="cacc" depart="257.00">
+    <vehicle id="257" type="cacc" depart="771.00">
         <route edges="E5 E6 -E8 E3"/>
     </vehicle>
-    <vehicle id="258" type="krauss_0.5" depart="258.00">
+    <vehicle id="258" type="krauss_0.5" depart="774.00">
         <route edges="-E8 -E2 E9 E6 E7"/>
     </vehicle>
-    <vehicle id="259" type="krauss_0.75" depart="259.00">
+    <vehicle id="259" type="krauss_0.75" depart="777.00">
         <route edges="-E8 -E2 E9 E6 E7"/>
     </vehicle>
-    <vehicle id="260" type="cacc" depart="260.00">
+    <vehicle id="260" type="cacc" depart="780.00">
         <route edges="-E8 -E2 E9 E6 E7"/>
     </vehicle>
-    <vehicle id="261" type="krauss_0.5" depart="261.00">
+    <vehicle id="261" type="krauss_0.5" depart="783.00">
         <route edges="E4 E5 -E9 -E1"/>
     </vehicle>
-    <vehicle id="262" type="krauss_0.75" depart="262.00">
+    <vehicle id="262" type="krauss_0.75" depart="786.00">
         <route edges="E4 E5 -E9 -E1"/>
     </vehicle>
-    <vehicle id="263" type="cacc" depart="263.00">
+    <vehicle id="263" type="cacc" depart="789.00">
         <route edges="E4 E5 -E9 -E1"/>
     </vehicle>
-    <vehicle id="264" type="krauss_0.5" depart="264.00">
+    <vehicle id="264" type="krauss_0.5" depart="792.00">
         <route edges="-E3 -E2 E9 -E5"/>
     </vehicle>
-    <vehicle id="265" type="krauss_0.75" depart="265.00">
+    <vehicle id="265" type="krauss_0.75" depart="795.00">
         <route edges="-E3 -E2 E9 -E5"/>
     </vehicle>
-    <vehicle id="266" type="cacc" depart="266.00">
+    <vehicle id="266" type="cacc" depart="798.00">
         <route edges="-E3 -E2 E9 -E5"/>
     </vehicle>
-    <vehicle id="267" type="krauss_0.5" depart="267.00">
+    <vehicle id="267" type="krauss_0.5" depart="801.00">
         <route edges="-E7 -E8"/>
     </vehicle>
-    <vehicle id="268" type="krauss_0.75" depart="268.00">
+    <vehicle id="268" type="krauss_0.75" depart="804.00">
         <route edges="-E7 -E8"/>
     </vehicle>
-    <vehicle id="269" type="cacc" depart="269.00">
+    <vehicle id="269" type="cacc" depart="807.00">
         <route edges="-E7 -E8"/>
     </vehicle>
-    <vehicle id="270" type="krauss_0.5" depart="270.00">
+    <vehicle id="270" type="krauss_0.5" depart="810.00">
         <route edges="E2 E3"/>
     </vehicle>
-    <vehicle id="271" type="krauss_0.75" depart="271.00">
+    <vehicle id="271" type="krauss_0.75" depart="813.00">
         <route edges="E2 E3"/>
     </vehicle>
-    <vehicle id="272" type="cacc" depart="272.00">
+    <vehicle id="272" type="cacc" depart="816.00">
         <route edges="E2 E3"/>
     </vehicle>
-    <vehicle id="273" type="krauss_0.5" depart="273.00">
+    <vehicle id="273" type="krauss_0.5" depart="819.00">
         <route edges="E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="274" type="krauss_0.75" depart="274.00">
+    <vehicle id="274" type="krauss_0.75" depart="822.00">
         <route edges="E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="275" type="cacc" depart="275.00">
+    <vehicle id="275" type="cacc" depart="825.00">
         <route edges="E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="276" type="krauss_0.5" depart="276.00">
+    <vehicle id="276" type="krauss_0.5" depart="828.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="277" type="krauss_0.75" depart="277.00">
+    <vehicle id="277" type="krauss_0.75" depart="831.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="278" type="cacc" depart="278.00">
+    <vehicle id="278" type="cacc" depart="834.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="279" type="krauss_0.5" depart="279.00">
+    <vehicle id="279" type="krauss_0.5" depart="837.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="280" type="krauss_0.75" depart="280.00">
+    <vehicle id="280" type="krauss_0.75" depart="840.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="281" type="cacc" depart="281.00">
+    <vehicle id="281" type="cacc" depart="843.00">
         <route edges="E4 -E10 E1 E9 -E5 -E4"/>
     </vehicle>
-    <vehicle id="282" type="krauss_0.5" depart="282.00">
+    <vehicle id="282" type="krauss_0.5" depart="846.00">
         <route edges="-E3 E8 -E6"/>
     </vehicle>
-    <vehicle id="283" type="krauss_0.75" depart="283.00">
+    <vehicle id="283" type="krauss_0.75" depart="849.00">
         <route edges="-E3 E8 -E6"/>
     </vehicle>
-    <vehicle id="284" type="cacc" depart="284.00">
+    <vehicle id="284" type="cacc" depart="852.00">
         <route edges="-E3 E8 -E6"/>
     </vehicle>
-    <vehicle id="285" type="krauss_0.5" depart="285.00">
+    <vehicle id="285" type="krauss_0.5" depart="855.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="286" type="krauss_0.75" depart="286.00">
+    <vehicle id="286" type="krauss_0.75" depart="858.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="287" type="cacc" depart="287.00">
+    <vehicle id="287" type="cacc" depart="861.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="288" type="krauss_0.5" depart="288.00">
+    <vehicle id="288" type="krauss_0.5" depart="864.00">
         <route edges="-E5 -E10 E1 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="289" type="krauss_0.75" depart="289.00">
+    <vehicle id="289" type="krauss_0.75" depart="867.00">
         <route edges="-E5 -E10 E1 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="290" type="cacc" depart="290.00">
+    <vehicle id="290" type="cacc" depart="870.00">
         <route edges="-E5 -E10 E1 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="291" type="krauss_0.5" depart="291.00">
+    <vehicle id="291" type="krauss_0.5" depart="873.00">
         <route edges="-E7 -E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="292" type="krauss_0.75" depart="292.00">
+    <vehicle id="292" type="krauss_0.75" depart="876.00">
         <route edges="-E7 -E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="293" type="cacc" depart="293.00">
+    <vehicle id="293" type="cacc" depart="879.00">
         <route edges="-E7 -E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="294" type="krauss_0.5" depart="294.00">
+    <vehicle id="294" type="krauss_0.5" depart="882.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="295" type="krauss_0.75" depart="295.00">
+    <vehicle id="295" type="krauss_0.75" depart="885.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="296" type="cacc" depart="296.00">
+    <vehicle id="296" type="cacc" depart="888.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vehicle id="297" type="krauss_0.5" depart="297.00">
+    <vehicle id="297" type="krauss_0.5" depart="891.00">
         <route edges="E9 E6 E7"/>
     </vehicle>
-    <vehicle id="298" type="krauss_0.75" depart="298.00">
+    <vehicle id="298" type="krauss_0.75" depart="894.00">
         <route edges="E9 E6 E7"/>
     </vehicle>
-    <vehicle id="299" type="cacc" depart="299.00">
+    <vehicle id="299" type="cacc" depart="897.00">
         <route edges="E9 E6 E7"/>
     </vehicle>
-    <vehicle id="300" type="krauss_0.5" depart="300.00">
+    <vehicle id="300" type="krauss_0.5" depart="900.00">
         <route edges="E8 E7"/>
     </vehicle>
-    <vehicle id="301" type="krauss_0.75" depart="301.00">
+    <vehicle id="301" type="krauss_0.75" depart="903.00">
         <route edges="E8 E7"/>
     </vehicle>
-    <vehicle id="302" type="cacc" depart="302.00">
+    <vehicle id="302" type="cacc" depart="906.00">
         <route edges="E8 E7"/>
     </vehicle>
-    <vehicle id="303" type="krauss_0.5" depart="303.00">
+    <vehicle id="303" type="krauss_0.5" depart="909.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="304" type="krauss_0.75" depart="304.00">
+    <vehicle id="304" type="krauss_0.75" depart="912.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="305" type="cacc" depart="305.00">
+    <vehicle id="305" type="cacc" depart="915.00">
         <route edges="E4 -E10 -E0"/>
     </vehicle>
-    <vehicle id="306" type="krauss_0.5" depart="306.00">
+    <vehicle id="306" type="krauss_0.5" depart="918.00">
         <route edges="-E9 E2 E8 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="307" type="krauss_0.75" depart="307.00">
+    <vehicle id="307" type="krauss_0.75" depart="921.00">
         <route edges="-E9 E2 E8 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="308" type="cacc" depart="308.00">
+    <vehicle id="308" type="cacc" depart="924.00">
         <route edges="-E9 E2 E8 -E6 -E5 -E10"/>
     </vehicle>
-    <vehicle id="309" type="krauss_0.5" depart="309.00">
+    <vehicle id="309" type="krauss_0.5" depart="927.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="310" type="krauss_0.75" depart="310.00">
+    <vehicle id="310" type="krauss_0.75" depart="930.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="311" type="cacc" depart="311.00">
+    <vehicle id="311" type="cacc" depart="933.00">
         <route edges="-E7 -E6 -E9 -E1 -E0"/>
     </vehicle>
-    <vehicle id="312" type="krauss_0.5" depart="312.00">
+    <vehicle id="312" type="krauss_0.5" depart="936.00">
         <route edges="-E7 -E8 -E2 E9"/>
     </vehicle>
-    <vehicle id="313" type="krauss_0.75" depart="313.00">
+    <vehicle id="313" type="krauss_0.75" depart="939.00">
         <route edges="-E7 -E8 -E2 E9"/>
     </vehicle>
-    <vehicle id="314" type="cacc" depart="314.00">
+    <vehicle id="314" type="cacc" depart="942.00">
         <route edges="-E7 -E8 -E2 E9"/>
     </vehicle>
-    <vehicle id="315" type="krauss_0.5" depart="315.00">
+    <vehicle id="315" type="krauss_0.5" depart="945.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="316" type="krauss_0.75" depart="316.00">
+    <vehicle id="316" type="krauss_0.75" depart="948.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="317" type="cacc" depart="317.00">
+    <vehicle id="317" type="cacc" depart="951.00">
         <route edges="-E6 -E9 E2 E8 E7"/>
     </vehicle>
-    <vehicle id="318" type="krauss_0.5" depart="318.00">
+    <vehicle id="318" type="krauss_0.5" depart="954.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="319" type="krauss_0.75" depart="319.00">
+    <vehicle id="319" type="krauss_0.75" depart="957.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="320" type="cacc" depart="320.00">
+    <vehicle id="320" type="cacc" depart="960.00">
         <route edges="-E7 -E6 -E5 -E4"/>
     </vehicle>
-    <vehicle id="321" type="krauss_0.5" depart="321.00">
+    <vehicle id="321" type="krauss_0.5" depart="963.00">
         <route edges="E6 -E8 -E2 E9"/>
     </vehicle>
-    <vehicle id="322" type="krauss_0.75" depart="322.00">
+    <vehicle id="322" type="krauss_0.75" depart="966.00">
         <route edges="E6 -E8 -E2 E9"/>
     </vehicle>
-    <vehicle id="323" type="cacc" depart="323.00">
+    <vehicle id="323" type="cacc" depart="969.00">
         <route edges="E6 -E8 -E2 E9"/>
     </vehicle>
-    <vehicle id="324" type="krauss_0.5" depart="324.00">
+    <vehicle id="324" type="krauss_0.5" depart="972.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="325" type="krauss_0.75" depart="325.00">
+    <vehicle id="325" type="krauss_0.75" depart="975.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="326" type="cacc" depart="326.00">
+    <vehicle id="326" type="cacc" depart="978.00">
         <route edges="E0 E1 E2 E3"/>
     </vehicle>
-    <vehicle id="327" type="krauss_0.5" depart="327.00">
+    <vehicle id="327" type="krauss_0.5" depart="981.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="328" type="krauss_0.75" depart="328.00">
+    <vehicle id="328" type="krauss_0.75" depart="984.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="329" type="cacc" depart="329.00">
+    <vehicle id="329" type="cacc" depart="987.00">
         <route edges="-E3 -E2 -E1 E10 -E4"/>
     </vehicle>
-    <vehicle id="330" type="krauss_0.5" depart="330.00">
+    <vehicle id="330" type="krauss_0.5" depart="990.00">
         <route edges="E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="331" type="krauss_0.75" depart="331.00">
+    <vehicle id="331" type="krauss_0.75" depart="993.00">
         <route edges="E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="332" type="cacc" depart="332.00">
+    <vehicle id="332" type="cacc" depart="996.00">
         <route edges="E8 -E6 -E9 E2 E3"/>
     </vehicle>
-    <vehicle id="333" type="krauss_0.5" depart="333.00">
+    <vehicle id="333" type="krauss_0.5" depart="999.00">
         <route edges="E0 E10 E5"/>
-    </vehicle>
-    <vehicle id="334" type="krauss_0.75" depart="334.00">
-        <route edges="E0 E10 E5"/>
-    </vehicle>
-    <vehicle id="335" type="cacc" depart="335.00">
-        <route edges="E0 E10 E5"/>
-    </vehicle>
-    <vehicle id="336" type="krauss_0.5" depart="336.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="337" type="krauss_0.75" depart="337.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="338" type="cacc" depart="338.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="339" type="krauss_0.5" depart="339.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="340" type="krauss_0.75" depart="340.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="341" type="cacc" depart="341.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="342" type="krauss_0.5" depart="342.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="343" type="krauss_0.75" depart="343.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="344" type="cacc" depart="344.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="345" type="krauss_0.5" depart="345.00">
-        <route edges="-E3 -E2 -E1"/>
-    </vehicle>
-    <vehicle id="346" type="krauss_0.75" depart="346.00">
-        <route edges="-E3 -E2 -E1"/>
-    </vehicle>
-    <vehicle id="347" type="cacc" depart="347.00">
-        <route edges="-E3 -E2 -E1"/>
-    </vehicle>
-    <vehicle id="348" type="krauss_0.5" depart="348.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="349" type="krauss_0.75" depart="349.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="350" type="cacc" depart="350.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="351" type="krauss_0.5" depart="351.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="352" type="krauss_0.75" depart="352.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="353" type="cacc" depart="353.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="354" type="krauss_0.5" depart="354.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="355" type="krauss_0.75" depart="355.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="356" type="cacc" depart="356.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="357" type="krauss_0.5" depart="357.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="358" type="krauss_0.75" depart="358.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="359" type="cacc" depart="359.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="360" type="krauss_0.5" depart="360.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="361" type="krauss_0.75" depart="361.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="362" type="cacc" depart="362.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="363" type="krauss_0.5" depart="363.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="364" type="krauss_0.75" depart="364.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="365" type="cacc" depart="365.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="366" type="krauss_0.5" depart="366.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="367" type="krauss_0.75" depart="367.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="368" type="cacc" depart="368.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="369" type="krauss_0.5" depart="369.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="370" type="krauss_0.75" depart="370.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="371" type="cacc" depart="371.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="372" type="krauss_0.5" depart="372.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="373" type="krauss_0.75" depart="373.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="374" type="cacc" depart="374.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="375" type="krauss_0.5" depart="375.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="376" type="krauss_0.75" depart="376.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="377" type="cacc" depart="377.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="378" type="krauss_0.5" depart="378.00">
-        <route edges="-E3 E8 -E6"/>
-    </vehicle>
-    <vehicle id="379" type="krauss_0.75" depart="379.00">
-        <route edges="-E3 E8 -E6"/>
-    </vehicle>
-    <vehicle id="380" type="cacc" depart="380.00">
-        <route edges="-E3 E8 -E6"/>
-    </vehicle>
-    <vehicle id="381" type="krauss_0.5" depart="381.00">
-        <route edges="E9"/>
-    </vehicle>
-    <vehicle id="382" type="krauss_0.75" depart="382.00">
-        <route edges="E9"/>
-    </vehicle>
-    <vehicle id="383" type="cacc" depart="383.00">
-        <route edges="E9"/>
-    </vehicle>
-    <vehicle id="384" type="krauss_0.5" depart="384.00">
-        <route edges="-E3 -E2 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="385" type="krauss_0.75" depart="385.00">
-        <route edges="-E3 -E2 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="386" type="cacc" depart="386.00">
-        <route edges="-E3 -E2 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="387" type="krauss_0.5" depart="387.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="388" type="krauss_0.75" depart="388.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="389" type="cacc" depart="389.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="390" type="krauss_0.5" depart="390.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="391" type="krauss_0.75" depart="391.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="392" type="cacc" depart="392.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="393" type="krauss_0.5" depart="393.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="394" type="krauss_0.75" depart="394.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="395" type="cacc" depart="395.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="396" type="krauss_0.5" depart="396.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="397" type="krauss_0.75" depart="397.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="398" type="cacc" depart="398.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="399" type="krauss_0.5" depart="399.00">
-        <route edges="E0 E1 E9"/>
-    </vehicle>
-    <vehicle id="400" type="krauss_0.75" depart="400.00">
-        <route edges="E0 E1 E9"/>
-    </vehicle>
-    <vehicle id="401" type="cacc" depart="401.00">
-        <route edges="E0 E1 E9"/>
-    </vehicle>
-    <vehicle id="402" type="krauss_0.5" depart="402.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="403" type="krauss_0.75" depart="403.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="404" type="cacc" depart="404.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="405" type="krauss_0.5" depart="405.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="406" type="krauss_0.75" depart="406.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="407" type="cacc" depart="407.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="408" type="krauss_0.5" depart="408.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="409" type="krauss_0.75" depart="409.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="410" type="cacc" depart="410.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="411" type="krauss_0.5" depart="411.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="412" type="krauss_0.75" depart="412.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="413" type="cacc" depart="413.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="414" type="krauss_0.5" depart="414.00">
-        <route edges="-E3 E8 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="415" type="krauss_0.75" depart="415.00">
-        <route edges="-E3 E8 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="416" type="cacc" depart="416.00">
-        <route edges="-E3 E8 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="417" type="krauss_0.5" depart="417.00">
-        <route edges="-E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="418" type="krauss_0.75" depart="418.00">
-        <route edges="-E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="419" type="cacc" depart="419.00">
-        <route edges="-E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="420" type="krauss_0.5" depart="420.00">
-        <route edges="E10 E5 -E9 -E1"/>
-    </vehicle>
-    <vehicle id="421" type="krauss_0.75" depart="421.00">
-        <route edges="E10 E5 -E9 -E1"/>
-    </vehicle>
-    <vehicle id="422" type="cacc" depart="422.00">
-        <route edges="E10 E5 -E9 -E1"/>
-    </vehicle>
-    <vehicle id="423" type="krauss_0.5" depart="423.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="424" type="krauss_0.75" depart="424.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="425" type="cacc" depart="425.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="426" type="krauss_0.5" depart="426.00">
-        <route edges="-E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="427" type="krauss_0.75" depart="427.00">
-        <route edges="-E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="428" type="cacc" depart="428.00">
-        <route edges="-E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="429" type="krauss_0.5" depart="429.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="430" type="krauss_0.75" depart="430.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="431" type="cacc" depart="431.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="432" type="krauss_0.5" depart="432.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="433" type="krauss_0.75" depart="433.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="434" type="cacc" depart="434.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="435" type="krauss_0.5" depart="435.00">
-        <route edges="-E1 E10 E5 E6"/>
-    </vehicle>
-    <vehicle id="436" type="krauss_0.75" depart="436.00">
-        <route edges="-E1 E10 E5 E6"/>
-    </vehicle>
-    <vehicle id="437" type="cacc" depart="437.00">
-        <route edges="-E1 E10 E5 E6"/>
-    </vehicle>
-    <vehicle id="438" type="krauss_0.5" depart="438.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="439" type="krauss_0.75" depart="439.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="440" type="cacc" depart="440.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="441" type="krauss_0.5" depart="441.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="442" type="krauss_0.75" depart="442.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="443" type="cacc" depart="443.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="444" type="krauss_0.5" depart="444.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="445" type="krauss_0.75" depart="445.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="446" type="cacc" depart="446.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="447" type="krauss_0.5" depart="447.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="448" type="krauss_0.75" depart="448.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="449" type="cacc" depart="449.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="450" type="krauss_0.5" depart="450.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="451" type="krauss_0.75" depart="451.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="452" type="cacc" depart="452.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="453" type="krauss_0.5" depart="453.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="454" type="krauss_0.75" depart="454.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="455" type="cacc" depart="455.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="456" type="krauss_0.5" depart="456.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="457" type="krauss_0.75" depart="457.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="458" type="cacc" depart="458.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="459" type="krauss_0.5" depart="459.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="460" type="krauss_0.75" depart="460.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="461" type="cacc" depart="461.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="462" type="krauss_0.5" depart="462.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="463" type="krauss_0.75" depart="463.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="464" type="cacc" depart="464.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="465" type="krauss_0.5" depart="465.00">
-        <route edges="E4 -E10"/>
-    </vehicle>
-    <vehicle id="466" type="krauss_0.75" depart="466.00">
-        <route edges="E4 -E10"/>
-    </vehicle>
-    <vehicle id="467" type="cacc" depart="467.00">
-        <route edges="E4 -E10"/>
-    </vehicle>
-    <vehicle id="468" type="krauss_0.5" depart="468.00">
-        <route edges="-E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="469" type="krauss_0.75" depart="469.00">
-        <route edges="-E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="470" type="cacc" depart="470.00">
-        <route edges="-E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="471" type="krauss_0.5" depart="471.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="472" type="krauss_0.75" depart="472.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="473" type="cacc" depart="473.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="474" type="krauss_0.5" depart="474.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="475" type="krauss_0.75" depart="475.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="476" type="cacc" depart="476.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="477" type="krauss_0.5" depart="477.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="478" type="krauss_0.75" depart="478.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="479" type="cacc" depart="479.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="480" type="krauss_0.5" depart="480.00">
-        <route edges="E4 E5 -E9 E2 E8"/>
-    </vehicle>
-    <vehicle id="481" type="krauss_0.75" depart="481.00">
-        <route edges="E4 E5 -E9 E2 E8"/>
-    </vehicle>
-    <vehicle id="482" type="cacc" depart="482.00">
-        <route edges="E4 E5 -E9 E2 E8"/>
-    </vehicle>
-    <vehicle id="483" type="krauss_0.5" depart="483.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="484" type="krauss_0.75" depart="484.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="485" type="cacc" depart="485.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="486" type="krauss_0.5" depart="486.00">
-        <route edges="-E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="487" type="krauss_0.75" depart="487.00">
-        <route edges="-E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="488" type="cacc" depart="488.00">
-        <route edges="-E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="489" type="krauss_0.5" depart="489.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="490" type="krauss_0.75" depart="490.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="491" type="cacc" depart="491.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="492" type="krauss_0.5" depart="492.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="493" type="krauss_0.75" depart="493.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="494" type="cacc" depart="494.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="495" type="krauss_0.5" depart="495.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="496" type="krauss_0.75" depart="496.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="497" type="cacc" depart="497.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="498" type="krauss_0.5" depart="498.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="499" type="krauss_0.75" depart="499.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="500" type="cacc" depart="500.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="501" type="krauss_0.5" depart="501.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="502" type="krauss_0.75" depart="502.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="503" type="cacc" depart="503.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="504" type="krauss_0.5" depart="504.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="505" type="krauss_0.75" depart="505.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="506" type="cacc" depart="506.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="507" type="krauss_0.5" depart="507.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="508" type="krauss_0.75" depart="508.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="509" type="cacc" depart="509.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="510" type="krauss_0.5" depart="510.00">
-        <route edges="E4 E5 E6 -E8 -E2"/>
-    </vehicle>
-    <vehicle id="511" type="krauss_0.75" depart="511.00">
-        <route edges="E4 E5 E6 -E8 -E2"/>
-    </vehicle>
-    <vehicle id="512" type="cacc" depart="512.00">
-        <route edges="E4 E5 E6 -E8 -E2"/>
-    </vehicle>
-    <vehicle id="513" type="krauss_0.5" depart="513.00">
-        <route edges="-E10 E1 E2 E8 -E6 -E9 -E1"/>
-    </vehicle>
-    <vehicle id="514" type="krauss_0.75" depart="514.00">
-        <route edges="-E10 E1 E2 E8 -E6 -E9 -E1"/>
-    </vehicle>
-    <vehicle id="515" type="cacc" depart="515.00">
-        <route edges="-E10 E1 E2 E8 -E6 -E9 -E1"/>
-    </vehicle>
-    <vehicle id="516" type="krauss_0.5" depart="516.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="517" type="krauss_0.75" depart="517.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="518" type="cacc" depart="518.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="519" type="krauss_0.5" depart="519.00">
-        <route edges="E8 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="520" type="krauss_0.75" depart="520.00">
-        <route edges="E8 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="521" type="cacc" depart="521.00">
-        <route edges="E8 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="522" type="krauss_0.5" depart="522.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="523" type="krauss_0.75" depart="523.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="524" type="cacc" depart="524.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="525" type="krauss_0.5" depart="525.00">
-        <route edges="E8 -E6 -E9 -E1 E10"/>
-    </vehicle>
-    <vehicle id="526" type="krauss_0.75" depart="526.00">
-        <route edges="E8 -E6 -E9 -E1 E10"/>
-    </vehicle>
-    <vehicle id="527" type="cacc" depart="527.00">
-        <route edges="E8 -E6 -E9 -E1 E10"/>
-    </vehicle>
-    <vehicle id="528" type="krauss_0.5" depart="528.00">
-        <route edges="E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="529" type="krauss_0.75" depart="529.00">
-        <route edges="E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="530" type="cacc" depart="530.00">
-        <route edges="E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="531" type="krauss_0.5" depart="531.00">
-        <route edges="E8 -E6 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="532" type="krauss_0.75" depart="532.00">
-        <route edges="E8 -E6 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="533" type="cacc" depart="533.00">
-        <route edges="E8 -E6 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="534" type="krauss_0.5" depart="534.00">
-        <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="535" type="krauss_0.75" depart="535.00">
-        <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="536" type="cacc" depart="536.00">
-        <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="537" type="krauss_0.5" depart="537.00">
-        <route edges="-E3 -E2 E9 -E5"/>
-    </vehicle>
-    <vehicle id="538" type="krauss_0.75" depart="538.00">
-        <route edges="-E3 -E2 E9 -E5"/>
-    </vehicle>
-    <vehicle id="539" type="cacc" depart="539.00">
-        <route edges="-E3 -E2 E9 -E5"/>
-    </vehicle>
-    <vehicle id="540" type="krauss_0.5" depart="540.00">
-        <route edges="E2 E8 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="541" type="krauss_0.75" depart="541.00">
-        <route edges="E2 E8 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="542" type="cacc" depart="542.00">
-        <route edges="E2 E8 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="543" type="krauss_0.5" depart="543.00">
-        <route edges="E0 E1"/>
-    </vehicle>
-    <vehicle id="544" type="krauss_0.75" depart="544.00">
-        <route edges="E0 E1"/>
-    </vehicle>
-    <vehicle id="545" type="cacc" depart="545.00">
-        <route edges="E0 E1"/>
-    </vehicle>
-    <vehicle id="546" type="krauss_0.5" depart="546.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="547" type="krauss_0.75" depart="547.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="548" type="cacc" depart="548.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="549" type="krauss_0.5" depart="549.00">
-        <route edges="-E5 -E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="550" type="krauss_0.75" depart="550.00">
-        <route edges="-E5 -E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="551" type="cacc" depart="551.00">
-        <route edges="-E5 -E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="552" type="krauss_0.5" depart="552.00">
-        <route edges="-E1 E10 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="553" type="krauss_0.75" depart="553.00">
-        <route edges="-E1 E10 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="554" type="cacc" depart="554.00">
-        <route edges="-E1 E10 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="555" type="krauss_0.5" depart="555.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="556" type="krauss_0.75" depart="556.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="557" type="cacc" depart="557.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="558" type="krauss_0.5" depart="558.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="559" type="krauss_0.75" depart="559.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="560" type="cacc" depart="560.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="561" type="krauss_0.5" depart="561.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="562" type="krauss_0.75" depart="562.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="563" type="cacc" depart="563.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="564" type="krauss_0.5" depart="564.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="565" type="krauss_0.75" depart="565.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="566" type="cacc" depart="566.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="567" type="krauss_0.5" depart="567.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="568" type="krauss_0.75" depart="568.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="569" type="cacc" depart="569.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="570" type="krauss_0.5" depart="570.00">
-        <route edges="E10 -E4"/>
-    </vehicle>
-    <vehicle id="571" type="krauss_0.75" depart="571.00">
-        <route edges="E10 -E4"/>
-    </vehicle>
-    <vehicle id="572" type="cacc" depart="572.00">
-        <route edges="E10 -E4"/>
-    </vehicle>
-    <vehicle id="573" type="krauss_0.5" depart="573.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="574" type="krauss_0.75" depart="574.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="575" type="cacc" depart="575.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="576" type="krauss_0.5" depart="576.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="577" type="krauss_0.75" depart="577.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="578" type="cacc" depart="578.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="579" type="krauss_0.5" depart="579.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="580" type="krauss_0.75" depart="580.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="581" type="cacc" depart="581.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="582" type="krauss_0.5" depart="582.00">
-        <route edges="E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="583" type="krauss_0.75" depart="583.00">
-        <route edges="E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="584" type="cacc" depart="584.00">
-        <route edges="E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="585" type="krauss_0.5" depart="585.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="586" type="krauss_0.75" depart="586.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="587" type="cacc" depart="587.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="588" type="krauss_0.5" depart="588.00">
-        <route edges="-E7 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="589" type="krauss_0.75" depart="589.00">
-        <route edges="-E7 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="590" type="cacc" depart="590.00">
-        <route edges="-E7 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="591" type="krauss_0.5" depart="591.00">
-        <route edges="-E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="592" type="krauss_0.75" depart="592.00">
-        <route edges="-E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="593" type="cacc" depart="593.00">
-        <route edges="-E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="594" type="krauss_0.5" depart="594.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="595" type="krauss_0.75" depart="595.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="596" type="cacc" depart="596.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="597" type="krauss_0.5" depart="597.00">
-        <route edges="E0 E1 E9 E6 -E8"/>
-    </vehicle>
-    <vehicle id="598" type="krauss_0.75" depart="598.00">
-        <route edges="E0 E1 E9 E6 -E8"/>
-    </vehicle>
-    <vehicle id="599" type="cacc" depart="599.00">
-        <route edges="E0 E1 E9 E6 -E8"/>
-    </vehicle>
-    <vehicle id="600" type="krauss_0.5" depart="600.00">
-        <route edges="-E7 -E6 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="601" type="krauss_0.75" depart="601.00">
-        <route edges="-E7 -E6 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="602" type="cacc" depart="602.00">
-        <route edges="-E7 -E6 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="603" type="krauss_0.5" depart="603.00">
-        <route edges="-E8 -E2 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="604" type="krauss_0.75" depart="604.00">
-        <route edges="-E8 -E2 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="605" type="cacc" depart="605.00">
-        <route edges="-E8 -E2 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="606" type="krauss_0.5" depart="606.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="607" type="krauss_0.75" depart="607.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="608" type="cacc" depart="608.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="609" type="krauss_0.5" depart="609.00">
-        <route edges="-E3 -E2 E9 -E5 -E10 E1"/>
-    </vehicle>
-    <vehicle id="610" type="krauss_0.75" depart="610.00">
-        <route edges="-E3 -E2 E9 -E5 -E10 E1"/>
-    </vehicle>
-    <vehicle id="611" type="cacc" depart="611.00">
-        <route edges="-E3 -E2 E9 -E5 -E10 E1"/>
-    </vehicle>
-    <vehicle id="612" type="krauss_0.5" depart="612.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="613" type="krauss_0.75" depart="613.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="614" type="cacc" depart="614.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="615" type="krauss_0.5" depart="615.00">
-        <route edges="E4 E5"/>
-    </vehicle>
-    <vehicle id="616" type="krauss_0.75" depart="616.00">
-        <route edges="E4 E5"/>
-    </vehicle>
-    <vehicle id="617" type="cacc" depart="617.00">
-        <route edges="E4 E5"/>
-    </vehicle>
-    <vehicle id="618" type="krauss_0.5" depart="618.00">
-        <route edges="E0 E1 E9 E6 -E8 -E2"/>
-    </vehicle>
-    <vehicle id="619" type="krauss_0.75" depart="619.00">
-        <route edges="E0 E1 E9 E6 -E8 -E2"/>
-    </vehicle>
-    <vehicle id="620" type="cacc" depart="620.00">
-        <route edges="E0 E1 E9 E6 -E8 -E2"/>
-    </vehicle>
-    <vehicle id="621" type="krauss_0.5" depart="621.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="622" type="krauss_0.75" depart="622.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="623" type="cacc" depart="623.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="624" type="krauss_0.5" depart="624.00">
-        <route edges="-E5 -E10 E1 E9 E6 -E8"/>
-    </vehicle>
-    <vehicle id="625" type="krauss_0.75" depart="625.00">
-        <route edges="-E5 -E10 E1 E9 E6 -E8"/>
-    </vehicle>
-    <vehicle id="626" type="cacc" depart="626.00">
-        <route edges="-E5 -E10 E1 E9 E6 -E8"/>
-    </vehicle>
-    <vehicle id="627" type="krauss_0.5" depart="627.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="628" type="krauss_0.75" depart="628.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="629" type="cacc" depart="629.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="630" type="krauss_0.5" depart="630.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="631" type="krauss_0.75" depart="631.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="632" type="cacc" depart="632.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="633" type="krauss_0.5" depart="633.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="634" type="krauss_0.75" depart="634.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="635" type="cacc" depart="635.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="636" type="krauss_0.5" depart="636.00">
-        <route edges="-E9 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="637" type="krauss_0.75" depart="637.00">
-        <route edges="-E9 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="638" type="cacc" depart="638.00">
-        <route edges="-E9 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="639" type="krauss_0.5" depart="639.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="640" type="krauss_0.75" depart="640.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="641" type="cacc" depart="641.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="642" type="krauss_0.5" depart="642.00">
-        <route edges="E4 E5 E6"/>
-    </vehicle>
-    <vehicle id="643" type="krauss_0.75" depart="643.00">
-        <route edges="E4 E5 E6"/>
-    </vehicle>
-    <vehicle id="644" type="cacc" depart="644.00">
-        <route edges="E4 E5 E6"/>
-    </vehicle>
-    <vehicle id="645" type="krauss_0.5" depart="645.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="646" type="krauss_0.75" depart="646.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="647" type="cacc" depart="647.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="648" type="krauss_0.5" depart="648.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="649" type="krauss_0.75" depart="649.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="650" type="cacc" depart="650.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="651" type="krauss_0.5" depart="651.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="652" type="krauss_0.75" depart="652.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="653" type="cacc" depart="653.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="654" type="krauss_0.5" depart="654.00">
-        <route edges="-E5 -E10 E1 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="655" type="krauss_0.75" depart="655.00">
-        <route edges="-E5 -E10 E1 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="656" type="cacc" depart="656.00">
-        <route edges="-E5 -E10 E1 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="657" type="krauss_0.5" depart="657.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="658" type="krauss_0.75" depart="658.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="659" type="cacc" depart="659.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="660" type="krauss_0.5" depart="660.00">
-        <route edges="E0 E1 E9"/>
-    </vehicle>
-    <vehicle id="661" type="krauss_0.75" depart="661.00">
-        <route edges="E0 E1 E9"/>
-    </vehicle>
-    <vehicle id="662" type="cacc" depart="662.00">
-        <route edges="E0 E1 E9"/>
-    </vehicle>
-    <vehicle id="663" type="krauss_0.5" depart="663.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="664" type="krauss_0.75" depart="664.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="665" type="cacc" depart="665.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="666" type="krauss_0.5" depart="666.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="667" type="krauss_0.75" depart="667.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="668" type="cacc" depart="668.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="669" type="krauss_0.5" depart="669.00">
-        <route edges="E10 E5 -E9 E2 E8 -E6 -E5 -E10 E1"/>
-    </vehicle>
-    <vehicle id="670" type="krauss_0.75" depart="670.00">
-        <route edges="E10 E5 -E9 E2 E8 -E6 -E5 -E10 E1"/>
-    </vehicle>
-    <vehicle id="671" type="cacc" depart="671.00">
-        <route edges="E10 E5 -E9 E2 E8 -E6 -E5 -E10 E1"/>
-    </vehicle>
-    <vehicle id="672" type="krauss_0.5" depart="672.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="673" type="krauss_0.75" depart="673.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="674" type="cacc" depart="674.00">
-        <route edges="E4 E5 -E9 E2"/>
-    </vehicle>
-    <vehicle id="675" type="krauss_0.5" depart="675.00">
-        <route edges="E4 E5"/>
-    </vehicle>
-    <vehicle id="676" type="krauss_0.75" depart="676.00">
-        <route edges="E4 E5"/>
-    </vehicle>
-    <vehicle id="677" type="cacc" depart="677.00">
-        <route edges="E4 E5"/>
-    </vehicle>
-    <vehicle id="678" type="krauss_0.5" depart="678.00">
-        <route edges="-E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="679" type="krauss_0.75" depart="679.00">
-        <route edges="-E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="680" type="cacc" depart="680.00">
-        <route edges="-E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="681" type="krauss_0.5" depart="681.00">
-        <route edges="-E5 -E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="682" type="krauss_0.75" depart="682.00">
-        <route edges="-E5 -E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="683" type="cacc" depart="683.00">
-        <route edges="-E5 -E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="684" type="krauss_0.5" depart="684.00">
-        <route edges="E4 E5 -E9 -E1 E10"/>
-    </vehicle>
-    <vehicle id="685" type="krauss_0.75" depart="685.00">
-        <route edges="E4 E5 -E9 -E1 E10"/>
-    </vehicle>
-    <vehicle id="686" type="cacc" depart="686.00">
-        <route edges="E4 E5 -E9 -E1 E10"/>
-    </vehicle>
-    <vehicle id="687" type="krauss_0.5" depart="687.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="688" type="krauss_0.75" depart="688.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="689" type="cacc" depart="689.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="690" type="krauss_0.5" depart="690.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="691" type="krauss_0.75" depart="691.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="692" type="cacc" depart="692.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="693" type="krauss_0.5" depart="693.00">
-        <route edges="-E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="694" type="krauss_0.75" depart="694.00">
-        <route edges="-E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="695" type="cacc" depart="695.00">
-        <route edges="-E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="696" type="krauss_0.5" depart="696.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="697" type="krauss_0.75" depart="697.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="698" type="cacc" depart="698.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="699" type="krauss_0.5" depart="699.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="700" type="krauss_0.75" depart="700.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="701" type="cacc" depart="701.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="702" type="krauss_0.5" depart="702.00">
-        <route edges="E10 E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="703" type="krauss_0.75" depart="703.00">
-        <route edges="E10 E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="704" type="cacc" depart="704.00">
-        <route edges="E10 E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="705" type="krauss_0.5" depart="705.00">
-        <route edges="-E7 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="706" type="krauss_0.75" depart="706.00">
-        <route edges="-E7 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="707" type="cacc" depart="707.00">
-        <route edges="-E7 -E6 -E9 E2"/>
-    </vehicle>
-    <vehicle id="708" type="krauss_0.5" depart="708.00">
-        <route edges="-E7 -E6 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="709" type="krauss_0.75" depart="709.00">
-        <route edges="-E7 -E6 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="710" type="cacc" depart="710.00">
-        <route edges="-E7 -E6 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="711" type="krauss_0.5" depart="711.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="712" type="krauss_0.75" depart="712.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="713" type="cacc" depart="713.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="714" type="krauss_0.5" depart="714.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="715" type="krauss_0.75" depart="715.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="716" type="cacc" depart="716.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="717" type="krauss_0.5" depart="717.00">
-        <route edges="E4 E5 E6"/>
-    </vehicle>
-    <vehicle id="718" type="krauss_0.75" depart="718.00">
-        <route edges="E4 E5 E6"/>
-    </vehicle>
-    <vehicle id="719" type="cacc" depart="719.00">
-        <route edges="E4 E5 E6"/>
-    </vehicle>
-    <vehicle id="720" type="krauss_0.5" depart="720.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="721" type="krauss_0.75" depart="721.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="722" type="cacc" depart="722.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="723" type="krauss_0.5" depart="723.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="724" type="krauss_0.75" depart="724.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="725" type="cacc" depart="725.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="726" type="krauss_0.5" depart="726.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="727" type="krauss_0.75" depart="727.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="728" type="cacc" depart="728.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="729" type="krauss_0.5" depart="729.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="730" type="krauss_0.75" depart="730.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="731" type="cacc" depart="731.00">
-        <route edges="-E7 -E6 -E9 -E1 E10 E5"/>
-    </vehicle>
-    <vehicle id="732" type="krauss_0.5" depart="732.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="733" type="krauss_0.75" depart="733.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="734" type="cacc" depart="734.00">
-        <route edges="E0 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="735" type="krauss_0.5" depart="735.00">
-        <route edges="-E3 -E2 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="736" type="krauss_0.75" depart="736.00">
-        <route edges="-E3 -E2 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="737" type="cacc" depart="737.00">
-        <route edges="-E3 -E2 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="738" type="krauss_0.5" depart="738.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="739" type="krauss_0.75" depart="739.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="740" type="cacc" depart="740.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="741" type="krauss_0.5" depart="741.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="742" type="krauss_0.75" depart="742.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="743" type="cacc" depart="743.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="744" type="krauss_0.5" depart="744.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="745" type="krauss_0.75" depart="745.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="746" type="cacc" depart="746.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="747" type="krauss_0.5" depart="747.00">
-        <route edges="-E8 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="748" type="krauss_0.75" depart="748.00">
-        <route edges="-E8 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="749" type="cacc" depart="749.00">
-        <route edges="-E8 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="750" type="krauss_0.5" depart="750.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="751" type="krauss_0.75" depart="751.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="752" type="cacc" depart="752.00">
-        <route edges="E0 E1 E9 -E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="753" type="krauss_0.5" depart="753.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="754" type="krauss_0.75" depart="754.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="755" type="cacc" depart="755.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="756" type="krauss_0.5" depart="756.00">
-        <route edges="-E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="757" type="krauss_0.75" depart="757.00">
-        <route edges="-E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="758" type="cacc" depart="758.00">
-        <route edges="-E10 E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="759" type="krauss_0.5" depart="759.00">
-        <route edges="-E3 E8 -E6"/>
-    </vehicle>
-    <vehicle id="760" type="krauss_0.75" depart="760.00">
-        <route edges="-E3 E8 -E6"/>
-    </vehicle>
-    <vehicle id="761" type="cacc" depart="761.00">
-        <route edges="-E3 E8 -E6"/>
-    </vehicle>
-    <vehicle id="762" type="krauss_0.5" depart="762.00">
-        <route edges="-E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="763" type="krauss_0.75" depart="763.00">
-        <route edges="-E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="764" type="cacc" depart="764.00">
-        <route edges="-E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="765" type="krauss_0.5" depart="765.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="766" type="krauss_0.75" depart="766.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="767" type="cacc" depart="767.00">
-        <route edges="-E3 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="768" type="krauss_0.5" depart="768.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="769" type="krauss_0.75" depart="769.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="770" type="cacc" depart="770.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="771" type="krauss_0.5" depart="771.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="772" type="krauss_0.75" depart="772.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="773" type="cacc" depart="773.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="774" type="krauss_0.5" depart="774.00">
-        <route edges="-E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="775" type="krauss_0.75" depart="775.00">
-        <route edges="-E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="776" type="cacc" depart="776.00">
-        <route edges="-E5 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="777" type="krauss_0.5" depart="777.00">
-        <route edges="-E10 E1 E2"/>
-    </vehicle>
-    <vehicle id="778" type="krauss_0.75" depart="778.00">
-        <route edges="-E10 E1 E2"/>
-    </vehicle>
-    <vehicle id="779" type="cacc" depart="779.00">
-        <route edges="-E10 E1 E2"/>
-    </vehicle>
-    <vehicle id="780" type="krauss_0.5" depart="780.00">
-        <route edges="E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="781" type="krauss_0.75" depart="781.00">
-        <route edges="E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="782" type="cacc" depart="782.00">
-        <route edges="E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="783" type="krauss_0.5" depart="783.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="784" type="krauss_0.75" depart="784.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="785" type="cacc" depart="785.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="786" type="krauss_0.5" depart="786.00">
-        <route edges="E0 E10 E5"/>
-    </vehicle>
-    <vehicle id="787" type="krauss_0.75" depart="787.00">
-        <route edges="E0 E10 E5"/>
-    </vehicle>
-    <vehicle id="788" type="cacc" depart="788.00">
-        <route edges="E0 E10 E5"/>
-    </vehicle>
-    <vehicle id="789" type="krauss_0.5" depart="789.00">
-        <route edges="E6 -E8 -E2 -E1"/>
-    </vehicle>
-    <vehicle id="790" type="krauss_0.75" depart="790.00">
-        <route edges="E6 -E8 -E2 -E1"/>
-    </vehicle>
-    <vehicle id="791" type="cacc" depart="791.00">
-        <route edges="E6 -E8 -E2 -E1"/>
-    </vehicle>
-    <vehicle id="792" type="krauss_0.5" depart="792.00">
-        <route edges="-E10 -E0"/>
-    </vehicle>
-    <vehicle id="793" type="krauss_0.75" depart="793.00">
-        <route edges="-E10 -E0"/>
-    </vehicle>
-    <vehicle id="794" type="cacc" depart="794.00">
-        <route edges="-E10 -E0"/>
-    </vehicle>
-    <vehicle id="795" type="krauss_0.5" depart="795.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="796" type="krauss_0.75" depart="796.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="797" type="cacc" depart="797.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="798" type="krauss_0.5" depart="798.00">
-        <route edges="E0 E1 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="799" type="krauss_0.75" depart="799.00">
-        <route edges="E0 E1 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="800" type="cacc" depart="800.00">
-        <route edges="E0 E1 E9 -E5 -E10"/>
-    </vehicle>
-    <vehicle id="801" type="krauss_0.5" depart="801.00">
-        <route edges="E1 E9 E6"/>
-    </vehicle>
-    <vehicle id="802" type="krauss_0.75" depart="802.00">
-        <route edges="E1 E9 E6"/>
-    </vehicle>
-    <vehicle id="803" type="cacc" depart="803.00">
-        <route edges="E1 E9 E6"/>
-    </vehicle>
-    <vehicle id="804" type="krauss_0.5" depart="804.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="805" type="krauss_0.75" depart="805.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="806" type="cacc" depart="806.00">
-        <route edges="-E3 E8 -E6 -E9 E2 E3"/>
-    </vehicle>
-    <vehicle id="807" type="krauss_0.5" depart="807.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="808" type="krauss_0.75" depart="808.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="809" type="cacc" depart="809.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="810" type="krauss_0.5" depart="810.00">
-        <route edges="E4 E5 -E9 E2 E8"/>
-    </vehicle>
-    <vehicle id="811" type="krauss_0.75" depart="811.00">
-        <route edges="E4 E5 -E9 E2 E8"/>
-    </vehicle>
-    <vehicle id="812" type="cacc" depart="812.00">
-        <route edges="E4 E5 -E9 E2 E8"/>
-    </vehicle>
-    <vehicle id="813" type="krauss_0.5" depart="813.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="814" type="krauss_0.75" depart="814.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="815" type="cacc" depart="815.00">
-        <route edges="-E3 -E2 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="816" type="krauss_0.5" depart="816.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="817" type="krauss_0.75" depart="817.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="818" type="cacc" depart="818.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="819" type="krauss_0.5" depart="819.00">
-        <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="820" type="krauss_0.75" depart="820.00">
-        <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="821" type="cacc" depart="821.00">
-        <route edges="E6 -E8 -E2 -E1 E10 -E4"/>
-    </vehicle>
-    <vehicle id="822" type="krauss_0.5" depart="822.00">
-        <route edges="E10 E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="823" type="krauss_0.75" depart="823.00">
-        <route edges="E10 E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="824" type="cacc" depart="824.00">
-        <route edges="E10 E5 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="825" type="krauss_0.5" depart="825.00">
-        <route edges="E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="826" type="krauss_0.75" depart="826.00">
-        <route edges="E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="827" type="cacc" depart="827.00">
-        <route edges="E1 E2 E3"/>
-    </vehicle>
-    <vehicle id="828" type="krauss_0.5" depart="828.00">
-        <route edges="-E3 -E2 E9 E6"/>
-    </vehicle>
-    <vehicle id="829" type="krauss_0.75" depart="829.00">
-        <route edges="-E3 -E2 E9 E6"/>
-    </vehicle>
-    <vehicle id="830" type="cacc" depart="830.00">
-        <route edges="-E3 -E2 E9 E6"/>
-    </vehicle>
-    <vehicle id="831" type="krauss_0.5" depart="831.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="832" type="krauss_0.75" depart="832.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="833" type="cacc" depart="833.00">
-        <route edges="E4 E5 E6 -E8 E3"/>
-    </vehicle>
-    <vehicle id="834" type="krauss_0.5" depart="834.00">
-        <route edges="-E3 -E2 E9"/>
-    </vehicle>
-    <vehicle id="835" type="krauss_0.75" depart="835.00">
-        <route edges="-E3 -E2 E9"/>
-    </vehicle>
-    <vehicle id="836" type="cacc" depart="836.00">
-        <route edges="-E3 -E2 E9"/>
-    </vehicle>
-    <vehicle id="837" type="krauss_0.5" depart="837.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="838" type="krauss_0.75" depart="838.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="839" type="cacc" depart="839.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="840" type="krauss_0.5" depart="840.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="841" type="krauss_0.75" depart="841.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="842" type="cacc" depart="842.00">
-        <route edges="-E7 -E6 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="843" type="krauss_0.5" depart="843.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="844" type="krauss_0.75" depart="844.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="845" type="cacc" depart="845.00">
-        <route edges="E0 E10 -E4"/>
-    </vehicle>
-    <vehicle id="846" type="krauss_0.5" depart="846.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="847" type="krauss_0.75" depart="847.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="848" type="cacc" depart="848.00">
-        <route edges="E4 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="849" type="krauss_0.5" depart="849.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="850" type="krauss_0.75" depart="850.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="851" type="cacc" depart="851.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="852" type="krauss_0.5" depart="852.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="853" type="krauss_0.75" depart="853.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="854" type="cacc" depart="854.00">
-        <route edges="E0 E1 E9 E6 E7"/>
-    </vehicle>
-    <vehicle id="855" type="krauss_0.5" depart="855.00">
-        <route edges="E10 E5 -E9 E2 E8 -E6 -E5"/>
-    </vehicle>
-    <vehicle id="856" type="krauss_0.75" depart="856.00">
-        <route edges="E10 E5 -E9 E2 E8 -E6 -E5"/>
-    </vehicle>
-    <vehicle id="857" type="cacc" depart="857.00">
-        <route edges="E10 E5 -E9 E2 E8 -E6 -E5"/>
-    </vehicle>
-    <vehicle id="858" type="krauss_0.5" depart="858.00">
-        <route edges="E2 E8"/>
-    </vehicle>
-    <vehicle id="859" type="krauss_0.75" depart="859.00">
-        <route edges="E2 E8"/>
-    </vehicle>
-    <vehicle id="860" type="cacc" depart="860.00">
-        <route edges="E2 E8"/>
-    </vehicle>
-    <vehicle id="861" type="krauss_0.5" depart="861.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="862" type="krauss_0.75" depart="862.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="863" type="cacc" depart="863.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="864" type="krauss_0.5" depart="864.00">
-        <route edges="E0 E10 E5 -E9"/>
-    </vehicle>
-    <vehicle id="865" type="krauss_0.75" depart="865.00">
-        <route edges="E0 E10 E5 -E9"/>
-    </vehicle>
-    <vehicle id="866" type="cacc" depart="866.00">
-        <route edges="E0 E10 E5 -E9"/>
-    </vehicle>
-    <vehicle id="867" type="krauss_0.5" depart="867.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="868" type="krauss_0.75" depart="868.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="869" type="cacc" depart="869.00">
-        <route edges="-E7 -E8 E3"/>
-    </vehicle>
-    <vehicle id="870" type="krauss_0.5" depart="870.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="871" type="krauss_0.75" depart="871.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="872" type="cacc" depart="872.00">
-        <route edges="-E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="873" type="krauss_0.5" depart="873.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="874" type="krauss_0.75" depart="874.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="875" type="cacc" depart="875.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="876" type="krauss_0.5" depart="876.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="877" type="krauss_0.75" depart="877.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="878" type="cacc" depart="878.00">
-        <route edges="E4 -E10 E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="879" type="krauss_0.5" depart="879.00">
-        <route edges="-E8 E3"/>
-    </vehicle>
-    <vehicle id="880" type="krauss_0.75" depart="880.00">
-        <route edges="-E8 E3"/>
-    </vehicle>
-    <vehicle id="881" type="cacc" depart="881.00">
-        <route edges="-E8 E3"/>
-    </vehicle>
-    <vehicle id="882" type="krauss_0.5" depart="882.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="883" type="krauss_0.75" depart="883.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="884" type="cacc" depart="884.00">
-        <route edges="-E7 -E6 -E9 -E1 -E0"/>
-    </vehicle>
-    <vehicle id="885" type="krauss_0.5" depart="885.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="886" type="krauss_0.75" depart="886.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="887" type="cacc" depart="887.00">
-        <route edges="E4 -E10 -E0"/>
-    </vehicle>
-    <vehicle id="888" type="krauss_0.5" depart="888.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="889" type="krauss_0.75" depart="889.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="890" type="cacc" depart="890.00">
-        <route edges="-E3 E8 E7"/>
-    </vehicle>
-    <vehicle id="891" type="krauss_0.5" depart="891.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="892" type="krauss_0.75" depart="892.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="893" type="cacc" depart="893.00">
-        <route edges="-E7 -E6 -E9 E2 E8 E7"/>
-    </vehicle>
-    <vehicle id="894" type="krauss_0.5" depart="894.00">
-        <route edges="E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="895" type="krauss_0.75" depart="895.00">
-        <route edges="E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="896" type="cacc" depart="896.00">
-        <route edges="E1 E9 -E5 -E4"/>
-    </vehicle>
-    <vehicle id="897" type="krauss_0.5" depart="897.00">
-        <route edges="-E1 E10 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="898" type="krauss_0.75" depart="898.00">
-        <route edges="-E1 E10 E5 E6 E7"/>
-    </vehicle>
-    <vehicle id="899" type="cacc" depart="899.00">
-        <route edges="-E1 E10 E5 E6 E7"/>
     </vehicle>
 </routes>

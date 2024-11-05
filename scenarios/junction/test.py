@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-def update_trips(input_file, output_file):
+def update_trips(input_file, output_file, interval=3, max_time=1000):
     # Parse the input XML file
     tree = ET.parse(input_file)
     root = tree.getroot()
@@ -8,14 +8,19 @@ def update_trips(input_file, output_file):
     # Extract all trip elements
     trips = root.findall('trip')
 
-    # Update trip IDs and departure times
+    # Update departure times and limit the number of trips
+    updated_trips = []
     for i, trip in enumerate(trips):
+        depart_time = i * interval
+        if depart_time >= max_time:
+            break
         trip.set('id', str(i))
-        trip.set('depart', f"{i}.00")
+        trip.set('depart', f"{depart_time}.00")
+        updated_trips.append(trip)
 
     # Clear the root element and append updated trips
     root.clear()
-    for trip in trips:
+    for trip in updated_trips:
         root.append(trip)
 
     # Write the updated trips to the output file
