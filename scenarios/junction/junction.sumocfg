@@ -4,14 +4,15 @@
     <input>
         <net-file value="junction.net.xml"/>
         <route-files value="junction.rou.xml"/>
-        <additional-files value="additional.vtype.xml">
+        <additional-files value="additional.add.vtype.xml"/>
     </input>
     <time>
         <begin value="0"/>
         <end value="1050"/>
-        <step-length="0.1">
+        <step-length value="0.1"/>
     </time>
-    <collisions>
-        <collision.stoptime = "3"/>
-    </collisions>
+    <processing>
+        <collision.action value="warn"/>
+        <collision.stoptime value="3"/>
+    </processing>
 </configuration>

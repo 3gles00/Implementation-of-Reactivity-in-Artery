@@ -16,15 +16,17 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <vType id="krauss_0.5" length="4.50" minGap="0.00" maxSpeed="35.00" vClass="passenger" guiShape="passenger" color="blue" sigma="0.5"/>
+    <!--<vType id="krauss_0.5" length="4.50" minGap="0.00" maxSpeed="35.00" vClass="passenger" guiShape="passenger" color="blue" sigma="0.5"/>
+    <vType id="krauss_0.75" length="4.50" minGap="0.00" maxSpeed="45.00" vClass="passenger" guiShape="passenger" color="red" sigma="0.75"/>
+    <vType id="cacc" length="4.50" minGap="0.00" maxSpeed="35.00" vClass="passenger" guiShape="passenger" color="green" carFollowModel="CACC"/> 
+    -->
+    
     <vehicle id="0" type="krauss_0.5" depart="0.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vType id="krauss_0.75" length="4.50" minGap="0.00" maxSpeed="45.00" vClass="passenger" guiShape="passenger" color="red" sigma="0.75"/>
     <vehicle id="1" type="krauss_0.75" depart="3.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
-    <vType id="cacc" length="4.50" minGap="0.00" maxSpeed="35.00" vClass="passenger" guiShape="passenger" color="green" carFollowModel="CACC"/>
     <vehicle id="2" type="cacc" depart="6.00">
         <route edges="E0 E1 E9 -E5 -E10 -E0"/>
     </vehicle>
