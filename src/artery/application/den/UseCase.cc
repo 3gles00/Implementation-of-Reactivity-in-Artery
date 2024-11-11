@@ -63,7 +63,7 @@ void UseCase::indicate(const artery::DenmObject& obj){
     //         mService->emergencyBrakeVehicle(denm.getVehicleId());
     //     }
     // }
-    std::cout << "Received DENM from vehicle ID: " /*int) obj.situation_cause_code()*/ << std::endl;
+    EV_DEBUG << "DENM Received " /*int) obj.situation_cause_code()*/ << std::endl;
 
     
 }
