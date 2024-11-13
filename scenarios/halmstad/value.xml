@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-11-11 12:10:57 by Eclipse SUMO GUI Version v1_21_0+0546-c8b591674a3
+<!-- generated on 2024-11-12 12:16:32 by Eclipse SUMO GUI Version v1_21_0+0546-c8b591674a3
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -32,7 +32,7 @@
     </report>
 
     <traci_server>
-        <remote-port value="48983"/>
+        <remote-port value="45103"/>
     </traci_server>
 
     <random_number>
@@ -48,4 +48,7 @@
 -->
 
 <tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="4" depart="4.00" departLane="-59825187#1_0" departPos="4.60" departSpeed="0.00" departDelay="0.00" arrival="28.90" arrivalLane="-160456256#1_0" arrivalPos="64.95" arrivalSpeed="8.49" duration="24.90" routeLength="193.16" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.97" rerouteNo="1" devices="tripinfo_4 routing_4 emissions_4" vType="vTypeCar" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="1459.779051" CO2_abs="68224.587228" HC_abs="8.223492" PMx_abs="1.156389" NOx_abs="27.974855" fuel_abs="21760.794630" electricity_abs="0"/>
+    </tripinfo>
 </tripinfos>

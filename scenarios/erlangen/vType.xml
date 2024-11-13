@@ -1,0 +1,16 @@
+<additional>
+    <vTypeDistribution id="VehicleList">
+        <vType id ="krauss_0.5" sigma = "0.5" maxSpeed="35" vClass="passenger" length="4.5" guiShape="passenger" minGap="0" color="blue">
+            <param key="device.rerouting.probability" value="1.0"/>
+            <param key="device.rerouting.period" value="60"/>
+        </vType>
+        <vType id ="krauss_0.75" sigma = "0.25" maxSpeed="45" vClass="passenger" length="4.5" guiShape="passenger" minGap="0" color="red">
+            <param key="device.rerouting.probability" value="1.0"/>
+            <param key="device.rerouting.period" value="60"/>
+        </vType>
+        <vType id ="cacc" carFollowModel="CACC" maxSpeed="35" vClass="passenger" length="4.5" guiShape="passenger" minGap="0" color="green">
+            <param key="device.rerouting.probability" value="1.0"/>
+            <param key="device.rerouting.period" value="60"/>
+        </vType>
+    </vTypeDistribution>
+</additional>

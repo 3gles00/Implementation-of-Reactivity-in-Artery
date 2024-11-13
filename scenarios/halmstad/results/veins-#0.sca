@@ -1,14 +1,14 @@
 version 2
-run veins-0-20241111-12:10:51-55785
+run veins-0-20241112-12:16:16-26027
 attr configname veins
-attr datetime 20241111-12:10:51
+attr datetime 20241112-12:16:16
 attr experiment veins
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network artery.veins.World
-attr processid 55785
+attr processid 26027
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -43,5 +43,672 @@ param *.node[*].middleware.datetime "\"2013-06-01 12:35:00\""
 param *.node[*].middleware.services "xmldoc(\"services.xml\")"
 param *.node[*].middleware.DenService.useCases "xmldoc(\"den-use-cases.xml\")"
 
-scalar World.traci.launcher port 48983
+scalar World.traci.launcher port 45103
+scalar World.node[3].appl.middleware.DenService transmission:count 148
+attr source DenmSent
+scalar World.node[3].appl.middleware.DenService reception:count 3189
+attr source DenmReceived
+scalar World.node[3].nic.phy80211p busyTime 0.036644497991966
+scalar World.node[3].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[3].nic.mac1609_4 ReceivedBroadcasts 4256
+scalar World.node[3].nic.mac1609_4 SentPackets 332
+scalar World.node[3].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[3].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[3].nic.mac1609_4 SNIRLostPackets 0
+scalar World.node[3].nic.mac1609_4 RXTXLostPackets 308
+scalar World.node[3].nic.mac1609_4 TotalLostPackets 308
+scalar World.node[3].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[3].nic.mac1609_4 TooLittleTime 0
+scalar World.node[3].nic.mac1609_4 TimesIntoBackoff 332
+scalar World.node[3].nic.mac1609_4 SlotsBackoff 1539
+scalar World.node[3].nic.mac1609_4 NumInternalContention 0
+scalar World.node[3].nic.mac1609_4 totalBusyTime 0.982328461562
+scalar World.node[3].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[3].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[3].nic.mac1609_4 sentPackets:count 332
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[3].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[3].nic.mac1609_4 channelBusy:timeavg 0.039453730761403
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[0].appl.middleware.DenService transmission:count 203
+attr source DenmSent
+scalar World.node[0].appl.middleware.DenService reception:count 2835
+attr source DenmReceived
+scalar World.node[0].nic.phy80211p busyTime 0.03581371906198
+scalar World.node[0].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[0].nic.mac1609_4 ReceivedBroadcasts 4478
+scalar World.node[0].nic.mac1609_4 SentPackets 363
+scalar World.node[0].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[0].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[0].nic.mac1609_4 SNIRLostPackets 616
+scalar World.node[0].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[0].nic.mac1609_4 TotalLostPackets 616
+scalar World.node[0].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[0].nic.mac1609_4 TooLittleTime 0
+scalar World.node[0].nic.mac1609_4 TimesIntoBackoff 363
+scalar World.node[0].nic.mac1609_4 SlotsBackoff 1453
+scalar World.node[0].nic.mac1609_4 NumInternalContention 0
+scalar World.node[0].nic.mac1609_4 totalBusyTime 1.102787
+scalar World.node[0].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[0].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[0].nic.mac1609_4 sentPackets:count 363
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[0].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[0].nic.mac1609_4 channelBusy:timeavg 0.036278855794714
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[1].appl.middleware.DenService transmission:count 193
+attr source DenmSent
+scalar World.node[1].appl.middleware.DenService reception:count 3648
+attr source DenmReceived
+scalar World.node[1].nic.phy80211p busyTime 0.034843491387012
+scalar World.node[1].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[1].nic.mac1609_4 ReceivedBroadcasts 4784
+scalar World.node[1].nic.mac1609_4 SentPackets 361
+scalar World.node[1].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[1].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[1].nic.mac1609_4 SNIRLostPackets 0
+scalar World.node[1].nic.mac1609_4 RXTXLostPackets 308
+scalar World.node[1].nic.mac1609_4 TotalLostPackets 308
+scalar World.node[1].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[1].nic.mac1609_4 TooLittleTime 0
+scalar World.node[1].nic.mac1609_4 TimesIntoBackoff 361
+scalar World.node[1].nic.mac1609_4 SlotsBackoff 1516
+scalar World.node[1].nic.mac1609_4 NumInternalContention 0
+scalar World.node[1].nic.mac1609_4 totalBusyTime 1.101211529674
+scalar World.node[1].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[1].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[1].nic.mac1609_4 sentPackets:count 361
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[1].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[1].nic.mac1609_4 channelBusy:timeavg 0.037459342904774
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[9].appl.middleware.DenService transmission:count 103
+attr source DenmSent
+scalar World.node[9].appl.middleware.DenService reception:count 3757
+attr source DenmReceived
+scalar World.node[9].nic.phy80211p busyTime 0.051178003259663
+scalar World.node[9].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[9].nic.mac1609_4 ReceivedBroadcasts 4330
+scalar World.node[9].nic.mac1609_4 SentPackets 333
+scalar World.node[9].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[9].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[9].nic.mac1609_4 SNIRLostPackets 616
+scalar World.node[9].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[9].nic.mac1609_4 TotalLostPackets 616
+scalar World.node[9].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[9].nic.mac1609_4 TooLittleTime 0
+scalar World.node[9].nic.mac1609_4 TimesIntoBackoff 333
+scalar World.node[9].nic.mac1609_4 SlotsBackoff 1812
+scalar World.node[9].nic.mac1609_4 NumInternalContention 0
+scalar World.node[9].nic.mac1609_4 totalBusyTime 1.052365
+scalar World.node[9].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[9].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[9].nic.mac1609_4 sentPackets:count 333
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[9].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[9].nic.mac1609_4 channelBusy:timeavg 0.051592808726047
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[10].appl.middleware.DenService transmission:count 93
+attr source DenmSent
+scalar World.node[10].appl.middleware.DenService reception:count 3695
+attr source DenmReceived
+scalar World.node[10].nic.phy80211p busyTime 0.052567150564343
+scalar World.node[10].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[10].nic.mac1609_4 ReceivedBroadcasts 4247
+scalar World.node[10].nic.mac1609_4 SentPackets 322
+scalar World.node[10].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[10].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[10].nic.mac1609_4 SNIRLostPackets 594
+scalar World.node[10].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[10].nic.mac1609_4 TotalLostPackets 594
+scalar World.node[10].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[10].nic.mac1609_4 TooLittleTime 0
+scalar World.node[10].nic.mac1609_4 TimesIntoBackoff 322
+scalar World.node[10].nic.mac1609_4 SlotsBackoff 1765
+scalar World.node[10].nic.mac1609_4 NumInternalContention 0
+scalar World.node[10].nic.mac1609_4 totalBusyTime 1.02849
+scalar World.node[10].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[10].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[10].nic.mac1609_4 sentPackets:count 322
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[10].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[10].nic.mac1609_4 channelBusy:timeavg 0.053021744917897
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[11].appl.middleware.DenService transmission:count 63
+attr source DenmSent
+scalar World.node[11].appl.middleware.DenService reception:count 3341
+attr source DenmReceived
+scalar World.node[11].nic.phy80211p busyTime 0.055532322839458
+scalar World.node[11].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[11].nic.mac1609_4 ReceivedBroadcasts 3848
+scalar World.node[11].nic.mac1609_4 SentPackets 272
+scalar World.node[11].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[11].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[11].nic.mac1609_4 SNIRLostPackets 494
+scalar World.node[11].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[11].nic.mac1609_4 TotalLostPackets 494
+scalar World.node[11].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[11].nic.mac1609_4 TooLittleTime 0
+scalar World.node[11].nic.mac1609_4 TimesIntoBackoff 286
+scalar World.node[11].nic.mac1609_4 SlotsBackoff 1537
+scalar World.node[11].nic.mac1609_4 NumInternalContention 0
+scalar World.node[11].nic.mac1609_4 totalBusyTime 0.920048
+scalar World.node[11].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[11].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[11].nic.mac1609_4 sentPackets:count 272
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[11].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[11].nic.mac1609_4 channelBusy:timeavg 0.056108995646566
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[12].appl.middleware.DenService transmission:count 53
+attr source DenmSent
+scalar World.node[12].appl.middleware.DenService reception:count 3166
+attr source DenmReceived
+scalar World.node[12].nic.phy80211p busyTime 0.056696427882869
+scalar World.node[12].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[12].nic.mac1609_4 ReceivedBroadcasts 3701
+scalar World.node[12].nic.mac1609_4 SentPackets 254
+scalar World.node[12].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[12].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[12].nic.mac1609_4 SNIRLostPackets 460
+scalar World.node[12].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[12].nic.mac1609_4 TotalLostPackets 460
+scalar World.node[12].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[12].nic.mac1609_4 TooLittleTime 0
+scalar World.node[12].nic.mac1609_4 TimesIntoBackoff 254
+scalar World.node[12].nic.mac1609_4 SlotsBackoff 1550
+scalar World.node[12].nic.mac1609_4 NumInternalContention 0
+scalar World.node[12].nic.mac1609_4 totalBusyTime 0.88115
+scalar World.node[12].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[12].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[12].nic.mac1609_4 sentPackets:count 254
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[12].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[12].nic.mac1609_4 channelBusy:timeavg 0.057226773261583
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[13].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[13].appl.middleware.DenService reception:count 3175
+attr source DenmReceived
+scalar World.node[13].nic.phy80211p busyTime 0.057547160065816
+scalar World.node[13].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[13].nic.mac1609_4 ReceivedBroadcasts 3536
+scalar World.node[13].nic.mac1609_4 SentPackets 239
+scalar World.node[13].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[13].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[13].nic.mac1609_4 SNIRLostPackets 428
+scalar World.node[13].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[13].nic.mac1609_4 TotalLostPackets 428
+scalar World.node[13].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[13].nic.mac1609_4 TooLittleTime 0
+scalar World.node[13].nic.mac1609_4 TimesIntoBackoff 239
+scalar World.node[13].nic.mac1609_4 SlotsBackoff 1912
+scalar World.node[13].nic.mac1609_4 NumInternalContention 0
+scalar World.node[13].nic.mac1609_4 totalBusyTime 0.838071
+scalar World.node[13].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[13].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[13].nic.mac1609_4 sentPackets:count 239
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[13].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[13].nic.mac1609_4 channelBusy:timeavg 0.058209427210789
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[14].appl.middleware.DenService transmission:count 20
+attr source DenmSent
+scalar World.node[14].appl.middleware.DenService reception:count 2837
+attr source DenmReceived
+scalar World.node[14].nic.phy80211p busyTime 0.059455149163278
+scalar World.node[14].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[14].nic.mac1609_4 ReceivedBroadcasts 3169
+scalar World.node[14].nic.mac1609_4 SentPackets 206
+scalar World.node[14].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[14].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[14].nic.mac1609_4 SNIRLostPackets 360
+scalar World.node[14].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[14].nic.mac1609_4 TotalLostPackets 360
+scalar World.node[14].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[14].nic.mac1609_4 TooLittleTime 0
+scalar World.node[14].nic.mac1609_4 TimesIntoBackoff 206
+scalar World.node[14].nic.mac1609_4 SlotsBackoff 1448
+scalar World.node[14].nic.mac1609_4 NumInternalContention 0
+scalar World.node[14].nic.mac1609_4 totalBusyTime 0.745166
+scalar World.node[14].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[14].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[14].nic.mac1609_4 sentPackets:count 206
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[14].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[14].nic.mac1609_4 channelBusy:timeavg 0.060106086156217
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[2].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[2].appl.middleware.DenService reception:count 3817
+attr source DenmReceived
+scalar World.node[2].nic.phy80211p busyTime 0.037985016159866
+scalar World.node[2].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[2].nic.mac1609_4 ReceivedBroadcasts 4454
+scalar World.node[2].nic.mac1609_4 SentPackets 374
+scalar World.node[2].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[2].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[2].nic.mac1609_4 SNIRLostPackets 616
+scalar World.node[2].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[2].nic.mac1609_4 TotalLostPackets 616
+scalar World.node[2].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[2].nic.mac1609_4 TooLittleTime 0
+scalar World.node[2].nic.mac1609_4 TimesIntoBackoff 395
+scalar World.node[2].nic.mac1609_4 SlotsBackoff 2824
+scalar World.node[2].nic.mac1609_4 NumInternalContention 0
+scalar World.node[2].nic.mac1609_4 totalBusyTime 1.099134
+scalar World.node[2].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[2].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[2].nic.mac1609_4 sentPackets:count 374
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[2].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[2].nic.mac1609_4 channelBusy:timeavg 0.038705290495659
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[15].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[15].appl.middleware.DenService reception:count 2457
+attr source DenmReceived
+scalar World.node[15].nic.phy80211p busyTime 0.06168409826201
+scalar World.node[15].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[15].nic.mac1609_4 ReceivedBroadcasts 2709
+scalar World.node[15].nic.mac1609_4 SentPackets 168
+scalar World.node[15].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[15].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[15].nic.mac1609_4 SNIRLostPackets 284
+scalar World.node[15].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[15].nic.mac1609_4 TotalLostPackets 284
+scalar World.node[15].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[15].nic.mac1609_4 TooLittleTime 0
+scalar World.node[15].nic.mac1609_4 TimesIntoBackoff 168
+scalar World.node[15].nic.mac1609_4 SlotsBackoff 1277
+scalar World.node[15].nic.mac1609_4 NumInternalContention 0
+scalar World.node[15].nic.mac1609_4 totalBusyTime 0.631312
+scalar World.node[15].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[15].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[15].nic.mac1609_4 sentPackets:count 168
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[15].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[15].nic.mac1609_4 channelBusy:timeavg 0.062521532171138
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[16].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[16].appl.middleware.DenService reception:count 1919
+attr source DenmReceived
+scalar World.node[16].nic.phy80211p busyTime 0.064513901209813
+scalar World.node[16].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[16].nic.mac1609_4 ReceivedBroadcasts 2281
+scalar World.node[16].nic.mac1609_4 SentPackets 130
+scalar World.node[16].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[16].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[16].nic.mac1609_4 SNIRLostPackets 139
+scalar World.node[16].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[16].nic.mac1609_4 TotalLostPackets 139
+scalar World.node[16].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[16].nic.mac1609_4 TooLittleTime 0
+scalar World.node[16].nic.mac1609_4 TimesIntoBackoff 130
+scalar World.node[16].nic.mac1609_4 SlotsBackoff 988
+scalar World.node[16].nic.mac1609_4 NumInternalContention 0
+scalar World.node[16].nic.mac1609_4 totalBusyTime 0.511119751625
+scalar World.node[16].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[16].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[16].nic.mac1609_4 sentPackets:count 130
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[16].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[16].nic.mac1609_4 channelBusy:timeavg 0.06554907118748
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[17].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[17].appl.middleware.DenService reception:count 1707
+attr source DenmReceived
+scalar World.node[17].nic.phy80211p busyTime 0.066435813865271
+scalar World.node[17].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[17].nic.mac1609_4 ReceivedBroadcasts 1886
+scalar World.node[17].nic.mac1609_4 SentPackets 106
+scalar World.node[17].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[17].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[17].nic.mac1609_4 SNIRLostPackets 160
+scalar World.node[17].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[17].nic.mac1609_4 TotalLostPackets 160
+scalar World.node[17].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[17].nic.mac1609_4 TooLittleTime 0
+scalar World.node[17].nic.mac1609_4 TimesIntoBackoff 109
+scalar World.node[17].nic.mac1609_4 SlotsBackoff 786
+scalar World.node[17].nic.mac1609_4 NumInternalContention 0
+scalar World.node[17].nic.mac1609_4 totalBusyTime 0.432434
+scalar World.node[17].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[17].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[17].nic.mac1609_4 sentPackets:count 106
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[17].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[17].nic.mac1609_4 channelBusy:timeavg 0.06759407641219
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[18].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[18].appl.middleware.DenService reception:count 1476
+attr source DenmReceived
+scalar World.node[18].nic.phy80211p busyTime 0.068059490074404
+scalar World.node[18].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[18].nic.mac1609_4 ReceivedBroadcasts 1634
+scalar World.node[18].nic.mac1609_4 SentPackets 90
+scalar World.node[18].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[18].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[18].nic.mac1609_4 SNIRLostPackets 130
+scalar World.node[18].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[18].nic.mac1609_4 TotalLostPackets 130
+scalar World.node[18].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[18].nic.mac1609_4 TooLittleTime 0
+scalar World.node[18].nic.mac1609_4 TimesIntoBackoff 90
+scalar World.node[18].nic.mac1609_4 SlotsBackoff 680
+scalar World.node[18].nic.mac1609_4 NumInternalContention 0
+scalar World.node[18].nic.mac1609_4 totalBusyTime 0.374058
+scalar World.node[18].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[18].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[18].nic.mac1609_4 sentPackets:count 90
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[18].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[18].nic.mac1609_4 channelBusy:timeavg 0.069301914072202
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[19].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[19].appl.middleware.DenService reception:count 1072
+attr source DenmReceived
+scalar World.node[19].nic.phy80211p busyTime 0.069119063929259
+scalar World.node[19].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[19].nic.mac1609_4 ReceivedBroadcasts 1366
+scalar World.node[19].nic.mac1609_4 SentPackets 73
+scalar World.node[19].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[19].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[19].nic.mac1609_4 SNIRLostPackets 96
+scalar World.node[19].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[19].nic.mac1609_4 TotalLostPackets 96
+scalar World.node[19].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[19].nic.mac1609_4 TooLittleTime 0
+scalar World.node[19].nic.mac1609_4 TimesIntoBackoff 73
+scalar World.node[19].nic.mac1609_4 SlotsBackoff 508
+scalar World.node[19].nic.mac1609_4 NumInternalContention 0
+scalar World.node[19].nic.mac1609_4 totalBusyTime 0.310497
+scalar World.node[19].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[19].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[19].nic.mac1609_4 sentPackets:count 73
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[19].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[19].nic.mac1609_4 channelBusy:timeavg 0.070607405093052
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[20].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[20].appl.middleware.DenService reception:count 981
+attr source DenmReceived
+scalar World.node[20].nic.phy80211p busyTime 0.070387951966499
+scalar World.node[20].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[20].nic.mac1609_4 ReceivedBroadcasts 1086
+scalar World.node[20].nic.mac1609_4 SentPackets 56
+scalar World.node[20].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[20].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[20].nic.mac1609_4 SNIRLostPackets 62
+scalar World.node[20].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[20].nic.mac1609_4 TotalLostPackets 62
+scalar World.node[20].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[20].nic.mac1609_4 TooLittleTime 0
+scalar World.node[20].nic.mac1609_4 TimesIntoBackoff 56
+scalar World.node[20].nic.mac1609_4 SlotsBackoff 395
+scalar World.node[20].nic.mac1609_4 NumInternalContention 0
+scalar World.node[20].nic.mac1609_4 totalBusyTime 0.245104
+scalar World.node[20].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[20].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[20].nic.mac1609_4 sentPackets:count 56
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[20].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[20].nic.mac1609_4 channelBusy:timeavg 0.072142176173338
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[21].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[21].appl.middleware.DenService reception:count 607
+attr source DenmReceived
+scalar World.node[21].nic.phy80211p busyTime 0.071240481961815
+scalar World.node[21].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[21].nic.mac1609_4 ReceivedBroadcasts 785
+scalar World.node[21].nic.mac1609_4 SentPackets 40
+scalar World.node[21].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[21].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[21].nic.mac1609_4 SNIRLostPackets 30
+scalar World.node[21].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[21].nic.mac1609_4 TotalLostPackets 30
+scalar World.node[21].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[21].nic.mac1609_4 TooLittleTime 0
+scalar World.node[21].nic.mac1609_4 TimesIntoBackoff 69
+scalar World.node[21].nic.mac1609_4 SlotsBackoff 468
+scalar World.node[21].nic.mac1609_4 NumInternalContention 0
+scalar World.node[21].nic.mac1609_4 totalBusyTime 0.176416
+scalar World.node[21].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[21].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[21].nic.mac1609_4 sentPackets:count 40
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[21].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[21].nic.mac1609_4 channelBusy:timeavg 0.073582909050209
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[22].appl.middleware.DenService transmission:count 0
+attr source DenmSent
+scalar World.node[22].appl.middleware.DenService reception:count 23
+attr source DenmReceived
+scalar World.node[22].nic.phy80211p busyTime 0.072441431604351
+scalar World.node[22].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[22].nic.mac1609_4 ReceivedBroadcasts 35
+scalar World.node[22].nic.mac1609_4 SentPackets 9
+scalar World.node[22].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[22].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[22].nic.mac1609_4 SNIRLostPackets 0
+scalar World.node[22].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[22].nic.mac1609_4 TotalLostPackets 0
+scalar World.node[22].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[22].nic.mac1609_4 TooLittleTime 0
+scalar World.node[22].nic.mac1609_4 TimesIntoBackoff 8
+scalar World.node[22].nic.mac1609_4 SlotsBackoff 1653
+scalar World.node[22].nic.mac1609_4 NumInternalContention 0
+scalar World.node[22].nic.mac1609_4 totalBusyTime 0.00933
+scalar World.node[22].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[22].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[22].nic.mac1609_4 sentPackets:count 9
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[22].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[22].nic.mac1609_4 channelBusy:timeavg 0.098704527065669
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[4].appl.middleware.DenService transmission:count 153
+attr source DenmSent
+scalar World.node[4].appl.middleware.DenService reception:count 3548
+attr source DenmReceived
+scalar World.node[4].nic.phy80211p busyTime 0.042343358150113
+scalar World.node[4].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[4].nic.mac1609_4 ReceivedBroadcasts 4429
+scalar World.node[4].nic.mac1609_4 SentPackets 361
+scalar World.node[4].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[4].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[4].nic.mac1609_4 SNIRLostPackets 616
+scalar World.node[4].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[4].nic.mac1609_4 TotalLostPackets 616
+scalar World.node[4].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[4].nic.mac1609_4 TooLittleTime 0
+scalar World.node[4].nic.mac1609_4 TimesIntoBackoff 361
+scalar World.node[4].nic.mac1609_4 SlotsBackoff 1576
+scalar World.node[4].nic.mac1609_4 NumInternalContention 0
+scalar World.node[4].nic.mac1609_4 totalBusyTime 1.088817
+scalar World.node[4].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[4].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[4].nic.mac1609_4 sentPackets:count 361
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[4].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[4].nic.mac1609_4 channelBusy:timeavg 0.042871008233959
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[5].appl.middleware.DenService transmission:count 60
+attr source DenmSent
+scalar World.node[5].appl.middleware.DenService reception:count 3471
+attr source DenmReceived
+scalar World.node[5].nic.phy80211p busyTime 0.043937920585183
+scalar World.node[5].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[5].nic.mac1609_4 ReceivedBroadcasts 4447
+scalar World.node[5].nic.mac1609_4 SentPackets 350
+scalar World.node[5].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[5].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[5].nic.mac1609_4 SNIRLostPackets 589
+scalar World.node[5].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[5].nic.mac1609_4 TotalLostPackets 589
+scalar World.node[5].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[5].nic.mac1609_4 TooLittleTime 0
+scalar World.node[5].nic.mac1609_4 TimesIntoBackoff 350
+scalar World.node[5].nic.mac1609_4 SlotsBackoff 1704
+scalar World.node[5].nic.mac1609_4 NumInternalContention 0
+scalar World.node[5].nic.mac1609_4 totalBusyTime 1.082971071686
+scalar World.node[5].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[5].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[5].nic.mac1609_4 sentPackets:count 350
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[5].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[5].nic.mac1609_4 channelBusy:timeavg 0.044388584206913
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[6].appl.middleware.DenService transmission:count 133
+attr source DenmSent
+scalar World.node[6].appl.middleware.DenService reception:count 3500
+attr source DenmReceived
+scalar World.node[6].nic.phy80211p busyTime 0.045555610472481
+scalar World.node[6].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[6].nic.mac1609_4 ReceivedBroadcasts 4404
+scalar World.node[6].nic.mac1609_4 SentPackets 346
+scalar World.node[6].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[6].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[6].nic.mac1609_4 SNIRLostPackets 616
+scalar World.node[6].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[6].nic.mac1609_4 TotalLostPackets 616
+scalar World.node[6].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[6].nic.mac1609_4 TooLittleTime 0
+scalar World.node[6].nic.mac1609_4 TimesIntoBackoff 346
+scalar World.node[6].nic.mac1609_4 SlotsBackoff 1750
+scalar World.node[6].nic.mac1609_4 NumInternalContention 0
+scalar World.node[6].nic.mac1609_4 totalBusyTime 1.077122
+scalar World.node[6].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[6].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[6].nic.mac1609_4 sentPackets:count 346
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[6].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[6].nic.mac1609_4 channelBusy:timeavg 0.046035746967168
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[7].appl.middleware.DenService transmission:count 122
+attr source DenmSent
+scalar World.node[7].appl.middleware.DenService reception:count 3699
+attr source DenmReceived
+scalar World.node[7].nic.phy80211p busyTime 0.047285249384912
+scalar World.node[7].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[7].nic.mac1609_4 ReceivedBroadcasts 4376
+scalar World.node[7].nic.mac1609_4 SentPackets 345
+scalar World.node[7].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[7].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[7].nic.mac1609_4 SNIRLostPackets 616
+scalar World.node[7].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[7].nic.mac1609_4 TotalLostPackets 616
+scalar World.node[7].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[7].nic.mac1609_4 TooLittleTime 0
+scalar World.node[7].nic.mac1609_4 TimesIntoBackoff 345
+scalar World.node[7].nic.mac1609_4 SlotsBackoff 1785
+scalar World.node[7].nic.mac1609_4 NumInternalContention 0
+scalar World.node[7].nic.mac1609_4 totalBusyTime 1.069313
+scalar World.node[7].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[7].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[7].nic.mac1609_4 sentPackets:count 345
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[7].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[7].nic.mac1609_4 channelBusy:timeavg 0.047742487645343
+attr source org_car2x_veins_modules_mac_sigChannelBusy
+scalar World.node[8].appl.middleware.DenService transmission:count 113
+attr source DenmSent
+scalar World.node[8].appl.middleware.DenService reception:count 3560
+attr source DenmReceived
+scalar World.node[8].nic.phy80211p busyTime 0.049139541933152
+scalar World.node[8].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar World.node[8].nic.mac1609_4 ReceivedBroadcasts 4355
+scalar World.node[8].nic.mac1609_4 SentPackets 335
+scalar World.node[8].nic.mac1609_4 SentAcknowledgements 0
+scalar World.node[8].nic.mac1609_4 RetriesExceeded 0
+scalar World.node[8].nic.mac1609_4 SNIRLostPackets 616
+scalar World.node[8].nic.mac1609_4 RXTXLostPackets 0
+scalar World.node[8].nic.mac1609_4 TotalLostPackets 616
+scalar World.node[8].nic.mac1609_4 DroppedPacketsInMac 0
+scalar World.node[8].nic.mac1609_4 TooLittleTime 0
+scalar World.node[8].nic.mac1609_4 TimesIntoBackoff 336
+scalar World.node[8].nic.mac1609_4 SlotsBackoff 1817
+scalar World.node[8].nic.mac1609_4 NumInternalContention 0
+scalar World.node[8].nic.mac1609_4 totalBusyTime 1.060383
+scalar World.node[8].nic.mac1609_4 retriesExceeded:count 0
+attr source org_car2x_veins_modules_mac_sigRetriesExceeded
+scalar World.node[8].nic.mac1609_4 sentAcks:count 0
+attr source org_car2x_veins_modules_mac_sigSentAck
+scalar World.node[8].nic.mac1609_4 sentPackets:count 335
+attr source org_car2x_veins_modules_mac_sigSentPacket
+scalar World.node[8].nic.mac1609_4 collisions:count 0
+attr source org_car2x_veins_modules_mac_sigCollision
+scalar World.node[8].nic.mac1609_4 channelBusy:timeavg 0.049556366070261
+attr source org_car2x_veins_modules_mac_sigChannelBusy
 

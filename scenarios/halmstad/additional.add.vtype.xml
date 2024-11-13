@@ -1,9 +1,8 @@
 <additional>
     <vTypeDistribution id="typedList1" >
         <vType id="vTypeCar" sigma="0.5" maxSpeed="35"  vClass="passenger" length="4.5" guiShape="passenger" color = "red" 	 />
-        <vType id="vTypeAutomatedCar" carFollowModel="CACC" maxSpeed="35"  vClass="passenger" length="4.5" guiShape="passenger" color= "white" 	/>
+        <vType id="vTypeAutomatedCar" sigma="0" maxSpeed="35"  vClass="passenger" length="4.5" guiShape="passenger" color= "white" 	/>
     </vTypeDistribution>
-
 
 <persons1>
 	<person id="person1" depart="311" departPos="0" arrivalPos="50">
