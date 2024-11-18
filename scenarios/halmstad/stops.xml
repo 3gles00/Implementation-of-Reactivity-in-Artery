@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-11-12 12:16:32 by Eclipse SUMO GUI Version v1_21_0+0546-c8b591674a3
+<!-- generated on 2024-11-18 13:12:46 by Eclipse SUMO GUI Version v1_21_0+0546-c8b591674a3
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -23,7 +23,8 @@
     </time>
 
     <processing>
-        <collision.action value="warn"/>
+        <collision.action value="none"/>
+        <collision.stoptime value="3"/>
     </processing>
 
     <report>
@@ -32,7 +33,7 @@
     </report>
 
     <traci_server>
-        <remote-port value="45103"/>
+        <remote-port value="35119"/>
     </traci_server>
 
     <random_number>

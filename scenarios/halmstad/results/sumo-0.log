@@ -1,27 +1,29 @@
-***Starting server on port 45103 ***
-Loading net-file from 'test.net.xml' ... done (67ms).
-Loading additional-files from 'map.poly.xml' ... done (25ms).
-Loading additional-files from 'additional.add.vtype.xml' ... done (6ms).
+***Starting server on port 35119 ***
+Loading net-file from 'test.net.xml' ... done (62ms).
+Loading additional-files from 'map.poly.xml' ... done (22ms).
+Loading additional-files from 'additional.add.vtype.xml' ... done (7ms).
 Loading done.
 Simulation started with time: 0.00.
-Simulation ended at time: 30.40.
+Simulation ended at time: 195.30.
 Reason: TraCI requested termination.
 Performance:
- Duration: 315.43s
- TraCI-Duration: 41.66s
- Real time factor: 0.0963764
- UPS: 11.682465
- UPS-Persons: 1.933868
+ Duration: 2538.62s
+ TraCI-Duration: 2364.49s
+ Real time factor: 0.0769316
+ UPS: 33.694317
+ UPS-Persons: 5.616442
 Vehicles:
- Inserted: 23 (Loaded: 134)
- Running: 22
- Waiting: 1
+ Inserted: 131 (Loaded: 134)
+ Running: 65
+ Waiting: 0
+ Emergency Braking: 5
 Persons:
  Inserted: 120
- Running: 5
-DijkstraRouter answered 8 queries and explored 7.00 edges on average.
-DijkstraRouter spent 0.00s answering queries (0.12ms on average).
-DijkstraRouter answered 5 queries and explored 266.20 edges on average.
-DijkstraRouter spent 0.00s answering queries (0.00ms on average).
-DijkstraRouter answered 24 queries and explored 36.46 edges on average.
-DijkstraRouter spent 0.00s answering queries (0.00ms on average).
+ Running: 12
+ Jammed: 2
+DijkstraRouter answered 55 queries and explored 7.25 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.02ms on average).
+DijkstraRouter answered 21 queries and explored 374.05 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.14ms on average).
+DijkstraRouter answered 131 queries and explored 42.63 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.02ms on average).
