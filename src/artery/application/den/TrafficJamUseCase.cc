@@ -59,6 +59,7 @@ void TrafficJamEndOfQueue::check()
     }
 }
 
+
 bool TrafficJamEndOfQueue::checkPreconditions()
 {
     return mNonUrbanEnvironment;
@@ -167,7 +168,6 @@ vanetza::btp::DataRequestB TrafficJamEndOfQueue::createRequest()
     return request;
 }
 
-
 void TrafficJamAhead::initialize(int stage)
 {
     UseCase::initialize(stage);
@@ -192,6 +192,10 @@ void TrafficJamAhead::check()
         mService->sendDenm(std::move(message), request);
     }
 }
+
+// void TrafficJamAhead::indicate(const artery::DenmObject& denm){
+//     EV << "TrafficJamAhead Usecase" << endl;
+// }
 
 bool TrafficJamAhead::checkPreconditions()
 {

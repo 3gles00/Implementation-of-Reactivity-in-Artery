@@ -3,7 +3,6 @@ add_subdirectory(artery)
 add_subdirectory(gemv2)
 add_subdirectory(highway-police)
 add_subdirectory(halmstad)
-add_subdirectory(junction)
 add_subdirectory(erlangen)
 
 if(WITH_ENVMOD)
