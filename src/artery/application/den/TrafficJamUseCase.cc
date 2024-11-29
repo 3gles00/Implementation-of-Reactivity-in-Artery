@@ -20,6 +20,10 @@
 #include <vanetza/units/velocity.hpp>
 #include <algorithm>
 #include <numeric>
+#include "veins/modules/application/ieee80211p/BaseWaveApplLayer.h"
+#include "veins/modules/mobility/traci/TraCICommandInterface.h"
+#include "veins/modules/mobility/traci/TraCICommandInterfaceVehicle.h"
+
 
 static const auto hour = 3600.0 * boost::units::si::seconds;
 static const auto km_per_hour = boost::units::si::kilo * boost::units::si::meter / hour;
@@ -38,12 +42,14 @@ namespace den
 void TrafficJamEndOfQueue::initialize(int stage)
 {
     UseCase::initialize(stage);
+    BaseWaveAppLayer::initialized(int stage);
     if (stage == 0)
     {
         mNonUrbanEnvironment = par("nonUrbanEnvironment").boolValue();
         mDenmMemory = mService->getMemory();
         mVelocitySampler.setDuration(par("sampleDuration"));
         mVelocitySampler.setInterval(par("sampleInterval"));
+        traci = veins::TraCICommandInterface::getInstance();
     }
 }
 
@@ -193,9 +199,14 @@ void TrafficJamAhead::check()
     }
 }
 
-// void TrafficJamAhead::indicate(const artery::DenmObject& denm){
-//     EV << "TrafficJamAhead Usecase" << endl;
-// }
+void TrafficJamAhead::indicate(const artery::DenmObject& denm){
+    // EV << "TrafficJamAhead Usecase" << std::endl;
+    if(denm & TrafficJamAhead::checkTrafficJamAheadReceived()){
+        if(TrafficJamAhead::checkConditions()){
+
+        }
+    }    
+}
 
 bool TrafficJamAhead::checkPreconditions()
 {
