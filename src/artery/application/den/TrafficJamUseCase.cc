@@ -20,7 +20,7 @@
 #include <vanetza/units/velocity.hpp>
 #include <algorithm>
 #include <numeric>
-#include "veins/modules/application/ieee80211p/BaseWaveApplLayer.h"
+//#include "veins/modules/application/ieee80211p/BaseWaveApplLayer.h"
 #include "veins/modules/mobility/traci/TraCICommandInterface.h"
 #include "veins/modules/mobility/traci/TraCICommandInterfaceVehicle.h"
 
