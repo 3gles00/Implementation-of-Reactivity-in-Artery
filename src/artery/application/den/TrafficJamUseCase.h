@@ -12,6 +12,8 @@
 #include "artery/application/Sampling.h"
 #include "artery/application/VehicleDataProvider.h"
 #include <vanetza/units/velocity.hpp>
+#include <veins/modules/mobility/traci/TraCICommandInterface.h>
+
 
 namespace artery
 {
@@ -46,6 +48,7 @@ public:
 protected:
     void initialize(int) override;
 
+    
     bool checkPreconditions();
     bool checkConditions();
     bool checkEgoDeceleration() const;

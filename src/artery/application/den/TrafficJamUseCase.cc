@@ -20,9 +20,7 @@
 #include <vanetza/units/velocity.hpp>
 #include <algorithm>
 #include <numeric>
-//#include "veins/modules/application/ieee80211p/BaseWaveApplLayer.h"
-#include "veins/modules/mobility/traci/TraCICommandInterface.h"
-#include "veins/modules/mobility/traci/TraCICommandInterfaceVehicle.h"
+#include <veins/modules/mobility/traci/TraCICommandInterface.h>
 
 
 static const auto hour = 3600.0 * boost::units::si::seconds;
@@ -42,9 +40,9 @@ namespace den
 void TrafficJamEndOfQueue::initialize(int stage)
 {
     UseCase::initialize(stage);
-    BaseWaveAppLayer::initialized(int stage);
     if (stage == 0)
     {
+        
         mNonUrbanEnvironment = par("nonUrbanEnvironment").boolValue();
         mDenmMemory = mService->getMemory();
         mVelocitySampler.setDuration(par("sampleDuration"));
