@@ -20,14 +20,18 @@
 #include <vanetza/units/velocity.hpp>
 #include <algorithm>
 #include <numeric>
-#include <veins/modules/mobility/traci/TraCICommandInterface.h>
-
+#include "veins/base/modules/BaseApplLayer.h"
+#include "veins/modules/mobility/traci/TraCIMobility.h"
+#include "veins/modules/mobility/traci/TraCICommandInterface.h"
 
 static const auto hour = 3600.0 * boost::units::si::seconds;
 static const auto km_per_hour = boost::units::si::kilo * boost::units::si::meter / hour;
 
 using omnetpp::SIMTIME_S;
 using omnetpp::SIMTIME_MS;
+using veins::BaseMobility;
+using veins::TraCIMobility;
+using veins::TraCIMobilityAccess;
 
 Define_Module(artery::den::TrafficJamEndOfQueue)
 Define_Module(artery::den::TrafficJamAhead)
@@ -47,7 +51,6 @@ void TrafficJamEndOfQueue::initialize(int stage)
         mDenmMemory = mService->getMemory();
         mVelocitySampler.setDuration(par("sampleDuration"));
         mVelocitySampler.setInterval(par("sampleInterval"));
-        traci = veins::TraCICommandInterface::getInstance();
     }
 }
 
@@ -181,7 +184,15 @@ void TrafficJamAhead::initialize(int stage)
         mVelocitySampler.setDuration(par("sampleDuration"));
         mVelocitySampler.setInterval(par("sampleInterval"));
         mUpdateCounter = 0;
-        mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();
+        mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();        
+
+        mobility = TraCIMobilityAccess().get(getParentModule());
+        traci = mobility->getCommandInterface();
+        traciVehicle = mobility->getVehicleCommandInterface();
+        //findHost()->subscribe(BaseMobility::mobilityStateChangedSignal, this);
+
+        EV_DEBUG << "TrafficJamAhead initialized" << std::endl;
+    
     }
 }
 
@@ -199,7 +210,7 @@ void TrafficJamAhead::check()
 
 void TrafficJamAhead::indicate(const artery::DenmObject& denm){
     // EV << "TrafficJamAhead Usecase" << std::endl;
-    if(denm & TrafficJamAhead::checkTrafficJamAheadReceived()){
+    if(TrafficJamAhead::checkTrafficJamAheadReceived()){
         if(TrafficJamAhead::checkConditions()){
 
         }
