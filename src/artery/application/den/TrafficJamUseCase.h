@@ -12,12 +12,10 @@
 #include "artery/application/Sampling.h"
 #include "artery/application/VehicleDataProvider.h"
 #include <vanetza/units/velocity.hpp>
-#include "veins/base/modules/BaseApplLayer.h"
-#include "veins/modules/mobility/traci/TraCIMobility.h"
-#include "veins/modules/mobility/traci/TraCICommandInterface.h"
+#include <artery/traci/VehicleController.h>
+#include "traci/Core.h"
 
-using veins::TraCIMobility;
-using veins::TraCICommandInterface;
+using namespace traci::VehicleController;
 
 namespace artery
 {
@@ -91,10 +89,7 @@ protected:
     bool checkStationaryEgo() const;
     bool checkTrafficJamAheadReceived() const;
     bool checkSlowVehiclesAheadByV2X() const;
-
-    TraCIMobility* mobility;
-    TraCICommandInterface* traci;
-    TraCICommandInterface::Vehicle* traciVehicle;
+    
 
 private:
     std::shared_ptr<const den::Memory> mDenmMemory;
@@ -102,6 +97,7 @@ private:
     bool mNonUrbanEnvironment;
     unsigned mUpdateCounter;
     SkipEarlySampler<vanetza::units::Velocity> mVelocitySampler;
+    traci::VehicleController* mVehicleController;
 };
 
 } // namespace den
