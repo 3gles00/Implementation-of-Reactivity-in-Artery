@@ -15,7 +15,6 @@
 #include <artery/traci/VehicleController.h>
 #include "traci/Core.h"
 
-using namespace traci::VehicleController;
 
 namespace artery
 {
@@ -97,7 +96,8 @@ private:
     bool mNonUrbanEnvironment;
     unsigned mUpdateCounter;
     SkipEarlySampler<vanetza::units::Velocity> mVelocitySampler;
-    std::unigue_ptr<traci::VehicleController> mController;
+    std::shared_ptr<traci::API> mTraci;
+    std::unique_ptr<traci::VehicleController> mController;
 };
 
 } // namespace den

@@ -28,6 +28,7 @@ static const auto km_per_hour = boost::units::si::kilo * boost::units::si::meter
 
 using omnetpp::SIMTIME_S;
 using omnetpp::SIMTIME_MS;
+using traci::Core;
 using traci::VehicleController;
 
 Define_Module(artery::den::TrafficJamEndOfQueue)
@@ -184,9 +185,8 @@ void TrafficJamAhead::initialize(int stage)
         mUpdateCounter = 0;
         mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();        
 
-        auto traciAPI = traci::Core::getAPI();
-        if(traciAPI){
-            mTraci = traciAPI;
+        mTraci = traci::Core::getAPI();
+        if(mTraci){
             mVehicleId = mTraci->vehicle.getID();
             mNetBoundary = mTraci->getBoundary();
             mController.reset(new VehicleController(mTraci, mVehicleId));
