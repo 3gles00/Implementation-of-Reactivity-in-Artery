@@ -21,7 +21,7 @@
 #include <algorithm>
 #include <numeric>
 #include "artery/traci/VehicleController.h"
-// #include "traci/Core.h"
+#include "traci/Core.h"
 
 static const auto hour = 3600.0 * boost::units::si::seconds;
 static const auto km_per_hour = boost::units::si::kilo * boost::units::si::meter / hour;
@@ -184,7 +184,7 @@ void TrafficJamAhead::initialize(int stage)
         mUpdateCounter = 0;
         mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();        
 
-        auto traciAPI = artery::Core::getInstance()->getTraciAPI();
+        auto traciAPI = traci::Core::getAPI();
         if(traciAPI){
             mTraci = traciAPI;
             mVehicleId = mTraci->vehicle.getID();

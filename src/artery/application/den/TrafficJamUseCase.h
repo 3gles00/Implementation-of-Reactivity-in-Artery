@@ -97,7 +97,7 @@ private:
     bool mNonUrbanEnvironment;
     unsigned mUpdateCounter;
     SkipEarlySampler<vanetza::units::Velocity> mVelocitySampler;
-    traci::VehicleController* mVehicleController;
+    std::unigue_ptr<traci::VehicleController> mController;
 };
 
 } // namespace den
