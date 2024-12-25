@@ -26,6 +26,7 @@
 static const auto hour = 3600.0 * boost::units::si::seconds;
 static const auto km_per_hour = boost::units::si::kilo * boost::units::si::meter / hour;
 
+using omnetpp;
 using omnetpp::SIMTIME_S;
 using omnetpp::SIMTIME_MS;
 using traci::Core;
@@ -185,12 +186,8 @@ void TrafficJamAhead::initialize(int stage)
         mUpdateCounter = 0;
         mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();        
 
-        mTraci = traci::Core::getAPI();
-        if(mTraci){
-            mVehicleId = mTraci->vehicle.getID();
-            mNetBoundary = mTraci->getBoundary();
-            mController.reset(new VehicleController(mTraci, mVehicleId));
-        }
+        ItsG5BaseService::initialize();
+        mVehicleController = &getFacilities().get_mutable<traci::VehicleController>();        
         
         EV_DEBUG << "TrafficJamAhead initialized" << std::endl;
     

@@ -12,7 +12,7 @@
 #include "artery/application/Sampling.h"
 #include "artery/application/VehicleDataProvider.h"
 #include <vanetza/units/velocity.hpp>
-#include <artery/traci/VehicleController.h>
+#include "artery/traci/VehicleController.h"
 #include "traci/Core.h"
 
 
@@ -96,8 +96,7 @@ private:
     bool mNonUrbanEnvironment;
     unsigned mUpdateCounter;
     SkipEarlySampler<vanetza::units::Velocity> mVelocitySampler;
-    std::shared_ptr<traci::API> mTraci;
-    std::unique_ptr<traci::VehicleController> mController;
+    traci::VehicleController* mVehicleController = nullptr;
 };
 
 } // namespace den
