@@ -20,17 +20,12 @@
 #include <vanetza/units/velocity.hpp>
 #include <algorithm>
 #include <numeric>
-#include "artery/traci/VehicleController.h"
-#include "traci/Core.h"
 
 static const auto hour = 3600.0 * boost::units::si::seconds;
 static const auto km_per_hour = boost::units::si::kilo * boost::units::si::meter / hour;
 
-using omnetpp;
 using omnetpp::SIMTIME_S;
 using omnetpp::SIMTIME_MS;
-using traci::Core;
-using traci::VehicleController;
 
 Define_Module(artery::den::TrafficJamEndOfQueue)
 Define_Module(artery::den::TrafficJamAhead)
@@ -186,9 +181,8 @@ void TrafficJamAhead::initialize(int stage)
         mUpdateCounter = 0;
         mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();        
 
-        ItsG5BaseService::initialize();
-        mVehicleController = &getFacilities().get_mutable<traci::VehicleController>();        
-        
+        mVehicleController = &mService->getFacilities().get_mutable<traci::VehicleController>();        
+
         EV_DEBUG << "TrafficJamAhead initialized" << std::endl;
     
     }
