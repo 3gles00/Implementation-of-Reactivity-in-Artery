@@ -203,17 +203,16 @@ void TrafficJamAhead::check()
 }
 
 void TrafficJamAhead::indicate(const artery::DenmObject& denm){
-    
-    // if(TrafficJamAhead::checkTrafficJamAheadReceived()){
-    //     if(TrafficJamAhead::checkConditions()){
 
-    //     }
-    // }    
-
-    // if(denm){
-    //     const vanetza::asn1::Denm& asn1 = denm.asn1();
+    /**
+     * 1. Get the edge that the denm is from
+     * 2. See if reroute process avoids the edge
+     * 3. If it doesnt reroute from the edge slowdwon.
+     */
+    if(denm & CauseCode::TrafficCondition){
+        const vanetza::asn1::Denm& asn1 = denm.asn1();
         
-    // }
+    }
 }
 
 bool TrafficJamAhead::checkPreconditions()
