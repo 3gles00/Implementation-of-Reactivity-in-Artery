@@ -181,9 +181,11 @@ void TrafficJamAhead::initialize(int stage)
         mUpdateCounter = 0;
         mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();        
 
+        // Initialized VehicleController through Facilities Layer for 
         mVehicleController = &mService->getFacilities().get_mutable<traci::VehicleController>();        
-
-        EV_DEBUG << "TrafficJamAhead initialized" << std::endl;
+        if(mVehicleController){
+            EV_DEBUG << "TrafficJamAhead initialized for VehicleId: " << mVehicleController->getVehicleId() << std::endl;
+        }
     
     }
 }
@@ -201,12 +203,17 @@ void TrafficJamAhead::check()
 }
 
 void TrafficJamAhead::indicate(const artery::DenmObject& denm){
-    // EV << "TrafficJamAhead Usecase" << std::endl;
-    if(TrafficJamAhead::checkTrafficJamAheadReceived()){
-        if(TrafficJamAhead::checkConditions()){
+    
+    // if(TrafficJamAhead::checkTrafficJamAheadReceived()){
+    //     if(TrafficJamAhead::checkConditions()){
 
-        }
-    }    
+    //     }
+    // }    
+
+    // if(denm){
+    //     const vanetza::asn1::Denm& asn1 = denm.asn1();
+        
+    // }
 }
 
 bool TrafficJamAhead::checkPreconditions()
