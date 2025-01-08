@@ -174,15 +174,16 @@ void TrafficJamAhead::initialize(int stage)
 {
     UseCase::initialize(stage);
     if (stage == 0) {
-        mNonUrbanEnvironment = par("nonUrbanEnvironment").boolValue();
+        //Always enabling the Use case since Urban environments are not allowed otherwise
+        mNonUrbanEnvironment = true //par("nonUrbanEnvironment").boolValue();
         mDenmMemory = mService->getMemory();
-        mVelocitySampler.setDuration(par("sampleDuration"));
+        mVelocitySampler.setDuration(par("sampleDuration"));Facilities Layer for 
+        mVehicleController = &mService->getFacilities
         mVelocitySampler.setInterval(par("sampleInterval"));
         mUpdateCounter = 0;
         mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();        
 
-        // Initialized VehicleController through Facilities Layer for 
-        mVehicleController = &mService->getFacilities().get_mutable<traci::VehicleController>();        
+        // Initialized VehicleController through ().get_mutable<traci::VehicleController>();        
         if(mVehicleController){
             EV_DEBUG << "TrafficJamAhead initialized for VehicleId: " << mVehicleController->getVehicleId() << std::endl;
         }
@@ -211,8 +212,20 @@ void TrafficJamAhead::indicate(const artery::DenmObject& denm){
      */
     if(denm & CauseCode::TrafficCondition){
         const vanetza::asn1::Denm& asn1 = denm.asn1();
-        
+        // auto edgeId = denm->location->
     }
+
+
+    //     if (denm.causeCode() == CauseCode::TrafficCondition)
+    // {
+    //     const vanetza::asn1::Denm& asn1 = denm.asn1();
+    //     auto edgeId = mLocalDynamicMap->getEdgeId(asn1.denm.location);
+        
+    //     if (mVehicleController && !mVehicleController->reroute(edgeId))
+    //     {
+    //         mVehicleController->slowDown();
+    //     }
+    // }
 }
 
 bool TrafficJamAhead::checkPreconditions()
