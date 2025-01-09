@@ -204,16 +204,9 @@ void TrafficJamAhead::check()
 
 void TrafficJamAhead::indicate(const artery::DenmObject& denm){
 
-    /**
-     * 1. Get the edge that the denm is from
-     * 2. See if reroute process avoids the edge
-     * 3. If it doesnt reroute from the edge slowdwon.
-     */
-    // const vanetza::asn1::Denm& asn1 = denm.asn1();
-
     if(denm & CauseCode::TrafficCondition){
-        // Weighted Dijkstra update for Vehicle 
-        mVehicleController->rerouteVehicle();
+        // Weighted Dijkstra route update for Vehicle 
+        mVehicleController -> updateRoute();
     }
 }
 

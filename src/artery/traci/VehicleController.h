@@ -25,7 +25,7 @@ public:
     void setSpeedFactor(double);
 
     void changeTarget(const std::string& edge);
-    void rerouteVehicle();
+    void updateRoute();
 
 private:
     VehicleType m_type;

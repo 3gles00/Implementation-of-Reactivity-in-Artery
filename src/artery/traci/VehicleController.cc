@@ -56,7 +56,7 @@ void VehicleController::changeTarget(const std::string& edge)
     m_traci->vehicle.changeTarget(getId(), edge);
 }
 
-void VehicleController::rerouteVehicle(){
+void VehicleController::updateRoute(){
     m_traci->vehicle.rerouteTraveltime(getId(), true);
 }
 
