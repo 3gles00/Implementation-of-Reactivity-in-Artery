@@ -185,7 +185,7 @@ void TrafficJamAhead::initialize(int stage)
         // VehicleController        
         mVehicleController = &mService->getFacilities().get_mutable<traci::VehicleController>();
         if(mVehicleController){
-            EV_DEBUG << "TrafficJamAhead initialized for VehicleId: " << mVehicleController->getVehicleId() << std::endl;
+            std::cout << "TrafficJamAhead initialized for VehicleId: " << mVehicleController->getVehicleId() << std::endl;
         }
     }
 }
@@ -205,8 +205,19 @@ void TrafficJamAhead::check()
 void TrafficJamAhead::indicate(const artery::DenmObject& denm){
 
     if(denm & CauseCode::TrafficCondition){
-        // Weighted Dijkstra route update for Vehicle 
-        mVehicleController -> updateRoute();
+        const vanetza::asn1::Denm& asn1 = denm.asn1();
+
+        // Only invoke when needed, based of ImpactReduction UseCase
+        if(asn1->denm.situation){
+            if(asn1->denm.situation->linkedCause){
+                long int code = asn1 -> denm.situation -> linkedCause -> causeCode;
+                if(code && code == CauseCodeType_trafficCondition){
+                    std::cout << "Traffic Jam detected by Vehicle: " << mVehicleController->getVehicleId() << std::endl;
+                    // Weighted Dijkstra route update for Vehicle 
+                    mVehicleController -> updateRoute();
+                }
+            }
+        }
     }
 }
 
