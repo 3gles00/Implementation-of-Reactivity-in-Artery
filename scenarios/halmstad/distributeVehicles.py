@@ -17,7 +17,7 @@ def distribute_vehicle_types(input_file, output_file, vehicle_types):
 
 if __name__ == "__main__":
     input_file = 'halmstad.trips.xml'
-    output_file = 'distributed_halmstad.trips.xml'
-    vehicle_types = ['krauss_0.5', 'krauss_0.75', 'cacc']
+    output_file = 'halmstad.trips.xml'
+    vehicle_types = ['krauss']
     distribute_vehicle_types(input_file, output_file, vehicle_types)
     print(f"Trips updated and saved to {output_file}")
