@@ -209,10 +209,16 @@ void TrafficJamAhead::indicate(const artery::DenmObject& denm){
 
         // Only invoke when needed, based of ImpactReduction UseCase
         if(asn1->denm.situation){
-            if(asn1->denm.situation->linkedCause->causeCode == CauseCodeType_trafficCondition){
-                std::cout << "Traffic Jam detected by Vehicle: " << mVehicleController->getVehicleId() << std::endl;
-                // Weighted Dijkstra route update for Vehicle 
-                mVehicleController -> updateRoute();
+            if(asn1->denm.situation->linkedCause){
+                std::cout << "2nd step" << std::endl;
+                if(asn1->denm.situation->linkedCause->causeCode){
+                    std::cout << "3rd step" << std::endl;
+                    if(asn1->denm.situation->linkedCause->causeCode == CauseCodeType_trafficCondition){
+                        std::cout << "Traffic Jam detected by Vehicle: " << mVehicleController->getVehicleId() << std::endl;
+                        // Weighted Dijkstra route update for Vehicle 
+                        mVehicleController -> updateRoute();
+                    }
+                }
             }
         }
     }
