@@ -60,4 +60,12 @@ void VehicleController::updateRoute(){
     m_traci->vehicle.rerouteTraveltime(getId(), true);
 }
 
+// std::vector<std::string> getRoute(){
+//     return m_traci->vehicle.getRoute(getId());
+// }
+
+// double getSpeed(){
+//     return m_traci->vehicle.getSpeed(getId());
+// }
+
 } // namespace traci

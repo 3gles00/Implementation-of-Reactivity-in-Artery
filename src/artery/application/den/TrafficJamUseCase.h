@@ -88,6 +88,7 @@ protected:
     bool checkStationaryEgo() const;
     bool checkTrafficJamAheadReceived() const;
     bool checkSlowVehiclesAheadByV2X() const;
+    // VehicleDataProvider* mVdp;
     
 
 private:
@@ -96,7 +97,7 @@ private:
     bool mNonUrbanEnvironment;
     unsigned mUpdateCounter;
     SkipEarlySampler<vanetza::units::Velocity> mVelocitySampler;
-    traci::VehicleController* mVehicleController = nullptr;
+    traci::VehicleController* mVehicleController;
 };
 
 } // namespace den

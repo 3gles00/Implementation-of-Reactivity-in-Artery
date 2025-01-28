@@ -25,7 +25,10 @@ public:
     void setSpeedFactor(double);
 
     void changeTarget(const std::string& edge);
+    
     void updateRoute();
+    // std::vector<std::string> getRoute();
+    // double getSpeed();
 
 private:
     VehicleType m_type;

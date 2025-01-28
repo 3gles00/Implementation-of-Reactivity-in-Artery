@@ -174,19 +174,15 @@ void TrafficJamAhead::initialize(int stage)
 {
     UseCase::initialize(stage);
     if (stage == 0) {
-        //Always enabling the Use case since Urban environments are not allowed otherwise
-        mNonUrbanEnvironment = true; //par("nonUrbanEnvironment").boolValue();
+        mNonUrbanEnvironment = par("nonUrbanEnvironment").boolValue();
         mDenmMemory = mService->getMemory();
         mVelocitySampler.setDuration(par("sampleDuration"));
         mVelocitySampler.setInterval(par("sampleInterval"));
         mUpdateCounter = 0;
         mLocalDynamicMap = &mService->getFacilities().get_const<LocalDynamicMap>();        
 
-        // VehicleController        
+        // VehicleController
         mVehicleController = &mService->getFacilities().get_mutable<traci::VehicleController>();
-        if(mVehicleController){
-            EV_DEBUG << "TrafficJamAhead initialized for VehicleId: " << mVehicleController->getVehicleId() << std::endl;
-        }
     }
 }
 
@@ -202,25 +198,49 @@ void TrafficJamAhead::check()
     }
 }
 
-void TrafficJamAhead::indicate(const artery::DenmObject& denm){
+// void TrafficJamAhead::indicate(const artery::DenmObject& denm){
 
-    if(denm & CauseCode::TrafficCondition){
-        const vanetza::asn1::Denm& asn1 = denm.asn1();
+//     if(denm & CauseCode::TrafficCondition){
+//         const vanetza::asn1::Denm& asn1 = denm.asn1();
 
-        // Only invoke when needed, based of ImpactReduction UseCase
-        if(asn1->denm.situation){
-            if(asn1->denm.situation->linkedCause){
-                std::cout << "2nd step" << std::endl;
-                if(asn1->denm.situation->linkedCause->causeCode){
-                    std::cout << "3rd step" << std::endl;
-                    if(asn1->denm.situation->linkedCause->causeCode == CauseCodeType_trafficCondition){
-                        std::cout << "Traffic Jam detected by Vehicle: " << mVehicleController->getVehicleId() << std::endl;
-                        // Weighted Dijkstra route update for Vehicle 
-                        mVehicleController -> updateRoute();
-                    }
-                }
-            }
-        }
+//         // Only invoke when needed, based of ImpactReduction UseCase
+//         if(asn1->denm.situation){
+            
+//             if(checkTrafficJamAheadReceived()){
+//                 TrafficJamFlag = true;
+                
+//                 std::cout << "Traffic Jam detected by Vehicle: " << mVehicleController->getVehicleId() << std::endl;
+//                 // Weighted Dijkstra route update for Vehicle 
+//                 mVehicleController -> updateRoute();
+//             }
+//        }
+//     }
+// }
+
+void TrafficJamAhead::indicate(const artery::DenmObject& denm) {
+    // Check if the DENM indicates a traffic jam
+    
+    if (denm & CauseCode::Accident || denm & CauseCode::SlowVehicle 
+        || denm & CauseCode::StationaryVehicle || denm & CauseCode::VehicleBreakdown 
+            || denm & CauseCode::CollisionRisk) {
+    
+        // if (trafficConditions.find(code)) {
+            // std::cout << "2 step " << mVehicleController->getVehicleId() << " rerouting" << std::endl;
+
+            // Check if the DENM has already been processed
+            // if (checkSlowVehiclesAheadByV2X()) {                    
+                // std::vector<std::string> oldRoute = mVehicleController->getRoute();
+                
+                mVehicleController->updateRoute();
+                std::cout << "Traffic Jam Detected " << mVehicleController->getVehicleId() << " rerouting" << std::endl;
+                
+                // std::vector<std::string> newRoute = mVehicleController->getRoute();
+                
+                // if(oldRoute == newRoute){
+                //     mVehicleController->setSpeed((vanetza::units::Velocity) mVehicleController->getSpeed()*0.8);
+                // }
+            // }
+        // }
     }
 }
 
@@ -301,13 +321,17 @@ bool TrafficJamAhead::checkSlowVehiclesAheadByV2X() const
             const auto& vdp = *mVdp;
             if (bvc.speed.speedValue == SpeedValue_unavailable ||
                 bvc.speed.speedValue > speedLimit * SpeedValue_oneCentimeterPerSec) {
+                std::cout << "speed false" << std::endl;
                 result = false;
             } else if (!similar_heading(bvc.heading, vdp.heading(), headingLimit)) {
+                std::cout << "heading false" << std::endl;
                 result = false;
             } else if (distance(bc.referencePosition, vdp.latitude(), vdp.longitude()) > distLimit) {
+                std::cout << "distance false" << std::endl;
                 return false;
             }
         } else {
+            std::cout << "Cointainer empty" << std::endl;
             result = false;
         }
 
