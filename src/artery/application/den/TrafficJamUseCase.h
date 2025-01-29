@@ -72,6 +72,9 @@ public:
      */
     void setNonUrbanEnvironment(bool flag) { mNonUrbanEnvironment = flag; }
 
+    TrafficJamAhead();
+    ~TrafficJamAhead();
+
     vanetza::btp::DataRequestB createRequest();
     vanetza::asn1::Denm createMessage();
 
@@ -81,6 +84,7 @@ public:
 
 protected:
     void initialize(int) override;
+    void handleMessage(omnetpp::cMessage* msg);
 
     bool checkPreconditions();
     bool checkConditions();
@@ -88,7 +92,6 @@ protected:
     bool checkStationaryEgo() const;
     bool checkTrafficJamAheadReceived() const;
     bool checkSlowVehiclesAheadByV2X() const;
-    // VehicleDataProvider* mVdp;
     
 
 private:
@@ -97,7 +100,11 @@ private:
     bool mNonUrbanEnvironment;
     unsigned mUpdateCounter;
     SkipEarlySampler<vanetza::units::Velocity> mVelocitySampler;
+    
     traci::VehicleController* mVehicleController;
+    
+    bool sleepStatus;
+    omnetpp::cMessage* sleepMessage;
 };
 
 } // namespace den

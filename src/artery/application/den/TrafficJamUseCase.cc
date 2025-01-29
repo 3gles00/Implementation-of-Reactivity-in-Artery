@@ -170,6 +170,14 @@ vanetza::btp::DataRequestB TrafficJamEndOfQueue::createRequest()
     return request;
 }
 
+TrafficJamAhead::TrafficJamAhead() : sleepMessage(nullptr), sleepStatus(false) {
+    // Constructor implementation
+}
+
+TrafficJamAhead::~TrafficJamAhead() {
+    cancelAndDelete(sleepMessage);
+}
+
 void TrafficJamAhead::initialize(int stage)
 {
     UseCase::initialize(stage);
@@ -183,6 +191,15 @@ void TrafficJamAhead::initialize(int stage)
 
         // VehicleController
         mVehicleController = &mService->getFacilities().get_mutable<traci::VehicleController>();
+        sleepStatus = false;
+
+        
+        if(mVehicleController){
+            EV_DEBUG << "Vehicle: " << mVehicleController->getVehicleId() << " initilized" << std::endl;
+        }
+
+        // Initilize Sleep Message
+        sleepMessage = new omnetpp::cMessage("Sleep Message");
     }
 }
 
@@ -198,50 +215,29 @@ void TrafficJamAhead::check()
     }
 }
 
-// void TrafficJamAhead::indicate(const artery::DenmObject& denm){
-
-//     if(denm & CauseCode::TrafficCondition){
-//         const vanetza::asn1::Denm& asn1 = denm.asn1();
-
-//         // Only invoke when needed, based of ImpactReduction UseCase
-//         if(asn1->denm.situation){
-            
-//             if(checkTrafficJamAheadReceived()){
-//                 TrafficJamFlag = true;
-                
-//                 std::cout << "Traffic Jam detected by Vehicle: " << mVehicleController->getVehicleId() << std::endl;
-//                 // Weighted Dijkstra route update for Vehicle 
-//                 mVehicleController -> updateRoute();
-//             }
-//        }
-//     }
-// }
-
 void TrafficJamAhead::indicate(const artery::DenmObject& denm) {
     // Check if the DENM indicates a traffic jam
     
-    if (denm & CauseCode::Accident || denm & CauseCode::SlowVehicle 
-        || denm & CauseCode::StationaryVehicle || denm & CauseCode::VehicleBreakdown 
-            || denm & CauseCode::CollisionRisk) {
-    
-        // if (trafficConditions.find(code)) {
-            // std::cout << "2 step " << mVehicleController->getVehicleId() << " rerouting" << std::endl;
+    if (denm & CauseCode::TrafficCondition || denm & CauseCode::StationaryVehicle
+        || denm & CauseCode::SlowVehicle || denm & CauseCode::Accident) {
+        
+        if(checkSlowVehiclesAheadByV2X() && !sleepStatus) {                 
+            
+            // Weighted Dijkstra route update for Vehicle 
+            mVehicleController->updateRoute();
+            std::cout << "Traffic Jam Detected " << mVehicleController->getVehicleId() << " rerouting" << std::endl;
+            sleepStatus = true;
 
-            // Check if the DENM has already been processed
-            // if (checkSlowVehiclesAheadByV2X()) {                    
-                // std::vector<std::string> oldRoute = mVehicleController->getRoute();
-                
-                mVehicleController->updateRoute();
-                std::cout << "Traffic Jam Detected " << mVehicleController->getVehicleId() << " rerouting" << std::endl;
-                
-                // std::vector<std::string> newRoute = mVehicleController->getRoute();
-                
-                // if(oldRoute == newRoute){
-                //     mVehicleController->setSpeed((vanetza::units::Velocity) mVehicleController->getSpeed()*0.8);
-                // }
-            // }
-        // }
+            scheduleAt(omnetpp::simTime() + 5, sleepMessage);
+        }
     }
+}
+
+void TrafficJamAhead::handleMessage(omnetpp::cMessage* msg){
+    if(msg == sleepMessage)
+        sleepStatus = false;
+    else
+        SuspendableUseCase::handleMessage(msg);
 }
 
 bool TrafficJamAhead::checkPreconditions()
@@ -311,8 +307,10 @@ bool TrafficJamAhead::checkSlowVehiclesAheadByV2X() const
         bool result = true;
         // less than 30 km/h, same driving direction and at most 100m distance
         const SpeedValue_t speedLimit = 833; // 833 cm/s are 29.988 km/h
-        const vanetza::units::Angle headingLimit { 10.0 * vanetza::units::degree };
-        const vanetza::units::Length distLimit { 100.0 * vanetza::units::si::meter };
+        
+        // Detect Early enough for change to be able to happen
+        const vanetza::units::Angle headingLimit { 20.0 * vanetza::units::degree }; 
+        const vanetza::units::Length distLimit { 250.0 * vanetza::units::si::meter };
 
         const auto& bc = msg->cam.camParameters.basicContainer;
         const auto& hfc = msg->cam.camParameters.highFrequencyContainer;
@@ -321,23 +319,19 @@ bool TrafficJamAhead::checkSlowVehiclesAheadByV2X() const
             const auto& vdp = *mVdp;
             if (bvc.speed.speedValue == SpeedValue_unavailable ||
                 bvc.speed.speedValue > speedLimit * SpeedValue_oneCentimeterPerSec) {
-                std::cout << "speed false" << std::endl;
                 result = false;
             } else if (!similar_heading(bvc.heading, vdp.heading(), headingLimit)) {
-                std::cout << "heading false" << std::endl;
                 result = false;
             } else if (distance(bc.referencePosition, vdp.latitude(), vdp.longitude()) > distLimit) {
-                std::cout << "distance false" << std::endl;
                 return false;
             }
         } else {
-            std::cout << "Cointainer empty" << std::endl;
             result = false;
         }
 
         return result;
     };
-    return mLocalDynamicMap->count(slowVehicles) >= 5;
+    return mLocalDynamicMap->count(slowVehicles) >= 3;
 }
 
 vanetza::asn1::Denm TrafficJamAhead::createMessage()
