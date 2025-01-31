@@ -195,7 +195,7 @@ void TrafficJamAhead::initialize(int stage)
 
         
         if(mVehicleController){
-            EV_DEBUG << "Vehicle: " << mVehicleController->getVehicleId() << " initilized" << std::endl;
+            std::cout << "Vehicle: " << mVehicleController->getVehicleId() << " initilized" << std::endl;
         }
 
         // Initilize Sleep Message
@@ -225,7 +225,7 @@ void TrafficJamAhead::indicate(const artery::DenmObject& denm) {
             
             // Weighted Dijkstra route update for Vehicle 
             mVehicleController->updateRoute();
-            std::cout << "Traffic Jam Detected " << mVehicleController->getVehicleId() << " rerouting" << std::endl;
+            EV << "Vehicle " << mVehicleController->getVehicleId() << " updating route" << std::endl;
             sleepStatus = true;
 
             scheduleAt(omnetpp::simTime() + 5, sleepMessage);
@@ -331,7 +331,7 @@ bool TrafficJamAhead::checkSlowVehiclesAheadByV2X() const
 
         return result;
     };
-    return mLocalDynamicMap->count(slowVehicles) >= 3;
+    return mLocalDynamicMap->count(slowVehicles) >= 4;
 }
 
 vanetza::asn1::Denm TrafficJamAhead::createMessage()

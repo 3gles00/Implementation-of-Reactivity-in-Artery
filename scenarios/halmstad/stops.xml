@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-01-29 22:43:13 by Eclipse SUMO GUI Version v1_21_0+0546-c8b591674a3
+<!-- generated on 2025-01-31 21:01:11 by Eclipse SUMO GUI Version v1_21_0+0546-c8b591674a3
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
         <net-file value="halmstad.net.xml"/>
-        <route-files value="krauss100.rou.xml"/>
+        <route-files value="krauss.rou.xml"/>
         <additional-files value="map.poly.xml, pedestrian.rou.xml, vType.xml"/>
     </input>
 
@@ -18,7 +18,7 @@
 
     <time>
         <begin value="0"/>
-        <end value="3000"/>
+        <end value="2000"/>
         <step-length value="0.1"/>
     </time>
 
@@ -33,7 +33,7 @@
     </report>
 
     <traci_server>
-        <remote-port value="37179"/>
+        <remote-port value="42015"/>
     </traci_server>
 
     <random_number>
