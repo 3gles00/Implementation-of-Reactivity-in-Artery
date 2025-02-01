@@ -1,6 +1,6 @@
 <additional>
     <vTypeDistribution id="VehicleList">
-        <vType id ="krauss" sigma = "0.5" maxSpeed="90" vClass="passenger" length="4.5" guiShape="passenger" minGap="0.5" color="red">
+        <vType id ="krauss" sigma="0.5" maxSpeed="90" vClass="passenger" length="4.5" guiShape="passenger" minGap="0.5" color="red">
             <param key="device.rerouting.probability" value="1.0"/>
             <param key="device.rerouting.period" value="30"/>
         </vType>

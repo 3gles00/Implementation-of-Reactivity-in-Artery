@@ -195,11 +195,11 @@ void TrafficJamAhead::initialize(int stage)
 
         
         if(mVehicleController){
-            std::cout << "Vehicle: " << mVehicleController->getVehicleId() << " initilized" << std::endl;
+            EV_DEBUG << "Vehicle: " << mVehicleController->getVehicleId() << " initilized" << std::endl;
         }
 
         // Initilize Sleep Message
-        sleepMessage = new omnetpp::cMessage("Sleep Message");
+        // sleepMessage = new omnetpp::cMessage("Sleep Message");
     }
 }
 
@@ -225,10 +225,10 @@ void TrafficJamAhead::indicate(const artery::DenmObject& denm) {
             
             // Weighted Dijkstra route update for Vehicle 
             mVehicleController->updateRoute();
-            EV << "Vehicle " << mVehicleController->getVehicleId() << " updating route" << std::endl;
+            EV_DEBUG << "Vehicle " << mVehicleController->getVehicleId() << " updating route" << std::endl;
             sleepStatus = true;
 
-            scheduleAt(omnetpp::simTime() + 5, sleepMessage);
+            // scheduleAt(omnetpp::simTime() + 5, sleepMessage);
         }
     }
 }
@@ -310,7 +310,7 @@ bool TrafficJamAhead::checkSlowVehiclesAheadByV2X() const
         
         // Detect Early enough for change to be able to happen
         const vanetza::units::Angle headingLimit { 20.0 * vanetza::units::degree }; 
-        const vanetza::units::Length distLimit { 250.0 * vanetza::units::si::meter };
+        const vanetza::units::Length distLimit { 150.0 * vanetza::units::si::meter };
 
         const auto& bc = msg->cam.camParameters.basicContainer;
         const auto& hfc = msg->cam.camParameters.highFrequencyContainer;
