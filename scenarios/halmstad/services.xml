@@ -6,7 +6,7 @@
 	<service type="artery.application.DenService">
 		<listener port="2002" />
 		<filters>
-			<penetration rate="1"/>
+			<penetration rate="0"/>
 		</filters>
 	</service>
 </services>

@@ -101,10 +101,10 @@ private:
     unsigned mUpdateCounter;
     SkipEarlySampler<vanetza::units::Velocity> mVelocitySampler;
     
-    traci::VehicleController* mVehicleController;
+    traci::VehicleController* mVehicleController = nullptr;
     
     bool sleepStatus;
-    omnetpp::cMessage* sleepMessage;
+    omnetpp::cMessage* sleepMessage = nullptr;
 };
 
 } // namespace den

@@ -199,7 +199,7 @@ void TrafficJamAhead::initialize(int stage)
         }
 
         // Initilize Sleep Message
-        // sleepMessage = new omnetpp::cMessage("Sleep Message");
+        sleepMessage = new omnetpp::cMessage("Sleep Message");
     }
 }
 
@@ -225,10 +225,10 @@ void TrafficJamAhead::indicate(const artery::DenmObject& denm) {
             
             // Weighted Dijkstra route update for Vehicle 
             mVehicleController->updateRoute();
-            EV_DEBUG << "Vehicle " << mVehicleController->getVehicleId() << " updating route" << std::endl;
+            EV << "Vehicle " << mVehicleController->getVehicleId() << " updating route" << std::endl;
             sleepStatus = true;
 
-            // scheduleAt(omnetpp::simTime() + 5, sleepMessage);
+            scheduleAt(omnetpp::simTime() + 5, sleepMessage);
         }
     }
 }
