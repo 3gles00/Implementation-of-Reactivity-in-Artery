@@ -24,6 +24,6 @@ def set_fixed_interval_departure_times(file_path, interval):
 
 if __name__ == "__main__":
     file_path = '/home/haron/artery/scenarios/halmstad/halmstad.rou.xml'
-    interval = 1.5  # Set 2 seconds between each departure
+    interval = 1.0  # Set 2 seconds between each departure
     set_fixed_interval_departure_times(file_path, interval)
     print(f"Set 1.5 seconds between each departure in {file_path}")
