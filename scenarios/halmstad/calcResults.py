@@ -27,7 +27,7 @@ def calculate_averages(csv_file_path):
     return average_speed, average_waiting_time, average_speed_factor, count
 
 if __name__ == "__main__":
-    csv_file_path = '/home/haron/artery/scenarios/halmstad/extraxted0.csv'
+    csv_file_path = '/home/haron/artery/scenarios/halmstad/extracted0.csv'
     avg_speed, avg_waiting_time, avg_speed_factor, num_ids = calculate_averages(csv_file_path)
     print(f"Average Speed: {avg_speed:.2f} km/h")
     print(f"Average Waiting Time: {avg_waiting_time:.2f} s")

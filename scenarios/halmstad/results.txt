@@ -1,0 +1,33 @@
+
+Penetration Rate: 0%
+Average Speed: 26.66 km/h
+Average Waiting Time: 7.61 s
+Average Speed Factor: 1.01
+Number of IDs: 360
+Emergency Braking: 13
+Simulation ended at time: 1200.90.
+
+
+Penetration Rate: 25%
+Average Speed: 26.11 km/h
+Average Waiting Time: 8.94 s
+Average Speed Factor: 1.01
+Number of IDs: 360
+
+Penetration Rate: 50%
+Average Speed: 26.59 km/h
+Average Waiting Time: 7.92 s
+Average Speed Factor: 1.01
+Number of IDs: 360
+
+Penetration Rate: 75%
+Average Speed: 24.97 km/h
+Average Waiting Time: 17.92 s
+Average Speed Factor: 1.01
+Number of IDs: 360
+
+Penetration Rate: 100%
+Average Speed: 26.48 km/h
+Average Waiting Time: 8.64 s
+Average Speed Factor: 1.01
+Number of IDs: 360

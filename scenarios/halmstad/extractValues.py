@@ -26,6 +26,6 @@ def extract_tripinfo_to_csv(xml_file_path, csv_file_path):
 
 if __name__ == "__main__":
     xml_file_path = '/home/haron/artery/scenarios/halmstad/value.xml'
-    csv_file_path = '/home/haron/artery/scenarios/halmstad/extraxted0.csv'
+    csv_file_path = '/home/haron/artery/scenarios/halmstad/extracted0.csv'
     extract_tripinfo_to_csv(xml_file_path, csv_file_path)
     print(f"Extracted tripinfo data to {csv_file_path}")
