@@ -229,7 +229,7 @@ void TrafficJamAhead::indicate(const artery::DenmObject& denm) {
             sleepStatus = true;
             
             // Limiting use per vehicle due to artery crashing mostly at 50% and 75% penetration rate
-            // scheduleAt(omnetpp::simTime() + 30, sleepMessage);
+            scheduleAt(omnetpp::simTime() + 30, sleepMessage);
         }
     }
 }
