@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-02-11 13:03:08 by Eclipse SUMO GUI Version v1_21_0+0546-c8b591674a3
+<!-- generated on 2025-03-03 15:31:14 by Eclipse SUMO GUI Version v1_21_0+0546-c8b591674a3
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
         <net-file value="halmstad.net.xml"/>
-        <route-files value="halmstad.rou.xml"/>
-        <additional-files value="map.poly.xml, pedestrian.rou.xml, vType.xml"/>
+        <route-files value="flow.trips.xml"/>
+        <additional-files value="map.poly.xml, vType.xml"/>
     </input>
 
     <output>
-        <emission-output value="emissions.xml"/>
         <summary-output value="summary.xml"/>
         <tripinfo-output value="value.xml"/>
         <stop-output value="stops.xml"/>
+        <statistic-output value="statistics.xml"/>
     </output>
 
     <time>
         <begin value="0"/>
-        <end value="500"/>
+        <end value="1500"/>
         <step-length value="0.1"/>
     </time>
 
@@ -33,7 +33,7 @@
     </report>
 
     <traci_server>
-        <remote-port value="38871"/>
+        <remote-port value="58879"/>
     </traci_server>
 
     <random_number>

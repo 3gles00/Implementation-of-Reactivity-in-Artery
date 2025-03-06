@@ -227,17 +227,17 @@ void TrafficJamAhead::indicate(const artery::DenmObject& denm) {
             mVehicleController->updateRoute();
             EV << "Vehicle " << mVehicleController->getVehicleId() << " updating route" << std::endl;
             sleepStatus = true;
-
-            scheduleAt(omnetpp::simTime() + 5, sleepMessage);
+            
+            // Limiting use per vehicle due to artery crashing mostly at 50% and 75% penetration rate
+            // scheduleAt(omnetpp::simTime() + 30, sleepMessage);
         }
     }
 }
 
 void TrafficJamAhead::handleMessage(omnetpp::cMessage* msg){
-    if(msg == sleepMessage)
+    if(msg == sleepMessage){
         sleepStatus = false;
-    else
-        SuspendableUseCase::handleMessage(msg);
+    }
 }
 
 bool TrafficJamAhead::checkPreconditions()

@@ -19,13 +19,14 @@ def extract_tripinfo_to_csv(xml_file_path, csv_file_path):
             average_speed_m_s = route_length / duration if duration > 0 else 0
             average_speed_km_h = average_speed_m_s * 3.6  # Convert m/s to km/h
             waiting_time = float(tripinfo.get('waitingTime'))
+            time_loss = float(tripinfo.get('timeLoss'))
             speed_factor = float(tripinfo.get('speedFactor'))
 
             # Write the extracted data to the CSV file
-            csv_writer.writerow([trip_id, average_speed_km_h, waiting_time, speed_factor])
+            csv_writer.writerow([trip_id, average_speed_km_h, waiting_time, time_loss, speed_factor])
 
 if __name__ == "__main__":
-    xml_file_path = '/home/haron/artery/scenarios/halmstad/value.xml'
-    csv_file_path = '/home/haron/artery/scenarios/halmstad/extracted0.csv'
+    xml_file_path = '/home/haron/artery/scenarios/halmstad/value75.xml'
+    csv_file_path = '/home/haron/artery/scenarios/halmstad/extracted75.csv'
     extract_tripinfo_to_csv(xml_file_path, csv_file_path)
     print(f"Extracted tripinfo data to {csv_file_path}")
