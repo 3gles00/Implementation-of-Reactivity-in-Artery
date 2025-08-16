@@ -1,32 +1,30 @@
 import xml.etree.ElementTree as ET
 import csv
 
-def extract_tripinfo_to_csv(xml_file_path, csv_file_path):
-    tree = ET.parse(xml_file_path)
-    root = tree.getroot()
+# File paths
+input_file = "/home/haron/artery/scenarios/halmstad/results/v100/value3.xml"
+output_file = "/home/haron/artery/scenarios/halmstad/results/v100/value3.csv"
 
-    # Open the CSV file for writing
-    with open(csv_file_path, mode='w', newline='') as csv_file:
-        csv_writer = csv.writer(csv_file)
-        # Write the header row
-        csv_writer.writerow(['ID', 'Average Speed (km/h)', 'Waiting Time', 'Speed Factor'])
+# Parse the XML file
+tree = ET.parse(input_file)
+root = tree.getroot()
 
-        # Iterate through each tripinfo element and extract the required data
-        for tripinfo in root.findall('tripinfo'):
-            trip_id = tripinfo.get('id')
-            duration = float(tripinfo.get('duration'))
-            route_length = float(tripinfo.get('routeLength'))
-            average_speed_m_s = route_length / duration if duration > 0 else 0
-            average_speed_km_h = average_speed_m_s * 3.6  # Convert m/s to km/h
-            waiting_time = float(tripinfo.get('waitingTime'))
-            time_loss = float(tripinfo.get('timeLoss'))
-            speed_factor = float(tripinfo.get('speedFactor'))
+# Open CSV file for writing
+with open(output_file, mode='w', newline='') as csv_file:
+    writer = csv.writer(csv_file)
+    # Write the header
+    writer.writerow(["id", "speed_kmh", "timeloss", "routelength", "duration"])
 
-            # Write the extracted data to the CSV file
-            csv_writer.writerow([trip_id, average_speed_km_h, waiting_time, time_loss, speed_factor])
+    # Iterate through each tripinfo element
+    for tripinfo in root.findall("tripinfo"):
+        trip_id = tripinfo.get("id")
+        timeloss = tripinfo.get("timeLoss", "0")
+        routelength = tripinfo.get("routeLength", "0")
+        duration = tripinfo.get("duration", "0")
+        speed_mps = float(routelength/duration)
+        speed_kmh = speed_mps * 3.6  # Convert m/s to km/h
 
-if __name__ == "__main__":
-    xml_file_path = '/home/haron/artery/scenarios/halmstad/value75.xml'
-    csv_file_path = '/home/haron/artery/scenarios/halmstad/extracted75.csv'
-    extract_tripinfo_to_csv(xml_file_path, csv_file_path)
-    print(f"Extracted tripinfo data to {csv_file_path}")
+        # Write the row to the CSV
+        writer.writerow([trip_id, round(speed_kmh, 2), timeloss, routelength, duration])
+
+print(f"Data extracted and saved to {output_file}")
